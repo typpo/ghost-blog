@@ -1,0 +1,1920 @@
+{
+    "db": [
+        {
+            "data": {
+                "app_fields": [], 
+                "app_settings": [], 
+                "apps": [], 
+                "permissions": [
+                    {
+                        "action_type": "exportContent", 
+                        "created_at": 1435777686349, 
+                        "created_by": 1, 
+                        "id": 1, 
+                        "name": "Export database", 
+                        "object_id": null, 
+                        "object_type": "db", 
+                        "updated_at": 1435777686349, 
+                        "updated_by": 1, 
+                        "uuid": "96826072-b495-421c-9814-1011cb46d018"
+                    }, 
+                    {
+                        "action_type": "importContent", 
+                        "created_at": 1435777686352, 
+                        "created_by": 1, 
+                        "id": 2, 
+                        "name": "Import database", 
+                        "object_id": null, 
+                        "object_type": "db", 
+                        "updated_at": 1435777686352, 
+                        "updated_by": 1, 
+                        "uuid": "e144d28c-3878-4c4a-9235-fdc1277f8995"
+                    }, 
+                    {
+                        "action_type": "deleteAllContent", 
+                        "created_at": 1435777686356, 
+                        "created_by": 1, 
+                        "id": 3, 
+                        "name": "Delete all content", 
+                        "object_id": null, 
+                        "object_type": "db", 
+                        "updated_at": 1435777686356, 
+                        "updated_by": 1, 
+                        "uuid": "75d90676-ebd0-4799-8edb-eb677e4ab489"
+                    }, 
+                    {
+                        "action_type": "send", 
+                        "created_at": 1435777686372, 
+                        "created_by": 1, 
+                        "id": 4, 
+                        "name": "Send mail", 
+                        "object_id": null, 
+                        "object_type": "mail", 
+                        "updated_at": 1435777686372, 
+                        "updated_by": 1, 
+                        "uuid": "f1fc33ce-de38-4965-88b9-66152b259dbd"
+                    }, 
+                    {
+                        "action_type": "browse", 
+                        "created_at": 1435777686378, 
+                        "created_by": 1, 
+                        "id": 5, 
+                        "name": "Browse notifications", 
+                        "object_id": null, 
+                        "object_type": "notification", 
+                        "updated_at": 1435777686378, 
+                        "updated_by": 1, 
+                        "uuid": "170fc3c5-9b3d-4455-96bd-36a2e0b49567"
+                    }, 
+                    {
+                        "action_type": "add", 
+                        "created_at": 1435777686382, 
+                        "created_by": 1, 
+                        "id": 6, 
+                        "name": "Add notifications", 
+                        "object_id": null, 
+                        "object_type": "notification", 
+                        "updated_at": 1435777686382, 
+                        "updated_by": 1, 
+                        "uuid": "8adaecf0-6e20-4e3d-963c-35d9851f8c57"
+                    }, 
+                    {
+                        "action_type": "destroy", 
+                        "created_at": 1435777686385, 
+                        "created_by": 1, 
+                        "id": 7, 
+                        "name": "Delete notifications", 
+                        "object_id": null, 
+                        "object_type": "notification", 
+                        "updated_at": 1435777686385, 
+                        "updated_by": 1, 
+                        "uuid": "a6672b4a-2ca1-491b-b85d-c7727dafd21c"
+                    }, 
+                    {
+                        "action_type": "browse", 
+                        "created_at": 1435777686395, 
+                        "created_by": 1, 
+                        "id": 8, 
+                        "name": "Browse posts", 
+                        "object_id": null, 
+                        "object_type": "post", 
+                        "updated_at": 1435777686395, 
+                        "updated_by": 1, 
+                        "uuid": "3da3bc37-03a7-44bb-900c-2ff1062bf709"
+                    }, 
+                    {
+                        "action_type": "read", 
+                        "created_at": 1435777686401, 
+                        "created_by": 1, 
+                        "id": 9, 
+                        "name": "Read posts", 
+                        "object_id": null, 
+                        "object_type": "post", 
+                        "updated_at": 1435777686401, 
+                        "updated_by": 1, 
+                        "uuid": "9c540291-9078-4114-b07e-a7924cde1e56"
+                    }, 
+                    {
+                        "action_type": "edit", 
+                        "created_at": 1435777686407, 
+                        "created_by": 1, 
+                        "id": 10, 
+                        "name": "Edit posts", 
+                        "object_id": null, 
+                        "object_type": "post", 
+                        "updated_at": 1435777686407, 
+                        "updated_by": 1, 
+                        "uuid": "bd980883-d1ce-4387-adf1-ddf29fa4de27"
+                    }, 
+                    {
+                        "action_type": "add", 
+                        "created_at": 1435777686410, 
+                        "created_by": 1, 
+                        "id": 11, 
+                        "name": "Add posts", 
+                        "object_id": null, 
+                        "object_type": "post", 
+                        "updated_at": 1435777686410, 
+                        "updated_by": 1, 
+                        "uuid": "573527cd-71c9-4b13-beb9-06279080fee9"
+                    }, 
+                    {
+                        "action_type": "destroy", 
+                        "created_at": 1435777686413, 
+                        "created_by": 1, 
+                        "id": 12, 
+                        "name": "Delete posts", 
+                        "object_id": null, 
+                        "object_type": "post", 
+                        "updated_at": 1435777686413, 
+                        "updated_by": 1, 
+                        "uuid": "d7e3fd8f-b52b-4cec-b491-a74b8aade338"
+                    }, 
+                    {
+                        "action_type": "browse", 
+                        "created_at": 1435777686417, 
+                        "created_by": 1, 
+                        "id": 13, 
+                        "name": "Browse settings", 
+                        "object_id": null, 
+                        "object_type": "setting", 
+                        "updated_at": 1435777686417, 
+                        "updated_by": 1, 
+                        "uuid": "a71fbc50-4969-4fc6-9a7d-089743f364be"
+                    }, 
+                    {
+                        "action_type": "read", 
+                        "created_at": 1435777686426, 
+                        "created_by": 1, 
+                        "id": 14, 
+                        "name": "Read settings", 
+                        "object_id": null, 
+                        "object_type": "setting", 
+                        "updated_at": 1435777686426, 
+                        "updated_by": 1, 
+                        "uuid": "f318db9b-9588-4798-becf-4330d46b3268"
+                    }, 
+                    {
+                        "action_type": "edit", 
+                        "created_at": 1435777686433, 
+                        "created_by": 1, 
+                        "id": 15, 
+                        "name": "Edit settings", 
+                        "object_id": null, 
+                        "object_type": "setting", 
+                        "updated_at": 1435777686433, 
+                        "updated_by": 1, 
+                        "uuid": "e60a7ea9-0f71-434a-815d-d591b0a97313"
+                    }, 
+                    {
+                        "action_type": "generate", 
+                        "created_at": 1435777686437, 
+                        "created_by": 1, 
+                        "id": 16, 
+                        "name": "Generate slugs", 
+                        "object_id": null, 
+                        "object_type": "slug", 
+                        "updated_at": 1435777686437, 
+                        "updated_by": 1, 
+                        "uuid": "d4a9b536-c66b-4a52-9d58-7187cb54319f"
+                    }, 
+                    {
+                        "action_type": "browse", 
+                        "created_at": 1435777686442, 
+                        "created_by": 1, 
+                        "id": 17, 
+                        "name": "Browse tags", 
+                        "object_id": null, 
+                        "object_type": "tag", 
+                        "updated_at": 1435777686442, 
+                        "updated_by": 1, 
+                        "uuid": "f7a8f446-58f5-450f-a880-6db0f4108caa"
+                    }, 
+                    {
+                        "action_type": "read", 
+                        "created_at": 1435777686445, 
+                        "created_by": 1, 
+                        "id": 18, 
+                        "name": "Read tags", 
+                        "object_id": null, 
+                        "object_type": "tag", 
+                        "updated_at": 1435777686445, 
+                        "updated_by": 1, 
+                        "uuid": "69d855a7-bb80-4909-ac52-478944959d25"
+                    }, 
+                    {
+                        "action_type": "edit", 
+                        "created_at": 1435777686451, 
+                        "created_by": 1, 
+                        "id": 19, 
+                        "name": "Edit tags", 
+                        "object_id": null, 
+                        "object_type": "tag", 
+                        "updated_at": 1435777686451, 
+                        "updated_by": 1, 
+                        "uuid": "a1cb8b98-22c5-4eae-b6c9-3fb88b9e58a0"
+                    }, 
+                    {
+                        "action_type": "add", 
+                        "created_at": 1435777686456, 
+                        "created_by": 1, 
+                        "id": 20, 
+                        "name": "Add tags", 
+                        "object_id": null, 
+                        "object_type": "tag", 
+                        "updated_at": 1435777686456, 
+                        "updated_by": 1, 
+                        "uuid": "b1046e18-22fa-484f-a666-738b557d2646"
+                    }, 
+                    {
+                        "action_type": "destroy", 
+                        "created_at": 1435777686459, 
+                        "created_by": 1, 
+                        "id": 21, 
+                        "name": "Delete tags", 
+                        "object_id": null, 
+                        "object_type": "tag", 
+                        "updated_at": 1435777686459, 
+                        "updated_by": 1, 
+                        "uuid": "1dfa99e1-98ec-4567-9433-a5f9ea9239e1"
+                    }, 
+                    {
+                        "action_type": "browse", 
+                        "created_at": 1435777686462, 
+                        "created_by": 1, 
+                        "id": 22, 
+                        "name": "Browse themes", 
+                        "object_id": null, 
+                        "object_type": "theme", 
+                        "updated_at": 1435777686462, 
+                        "updated_by": 1, 
+                        "uuid": "3d2b889f-e5de-44a1-abf8-5615856dd79f"
+                    }, 
+                    {
+                        "action_type": "edit", 
+                        "created_at": 1435777686465, 
+                        "created_by": 1, 
+                        "id": 23, 
+                        "name": "Edit themes", 
+                        "object_id": null, 
+                        "object_type": "theme", 
+                        "updated_at": 1435777686465, 
+                        "updated_by": 1, 
+                        "uuid": "605b70cf-429c-4775-8386-f489e0b3d14a"
+                    }, 
+                    {
+                        "action_type": "browse", 
+                        "created_at": 1435777686468, 
+                        "created_by": 1, 
+                        "id": 24, 
+                        "name": "Browse users", 
+                        "object_id": null, 
+                        "object_type": "user", 
+                        "updated_at": 1435777686468, 
+                        "updated_by": 1, 
+                        "uuid": "a62e5f72-a84b-41e3-b962-263bf45f1727"
+                    }, 
+                    {
+                        "action_type": "read", 
+                        "created_at": 1435777686480, 
+                        "created_by": 1, 
+                        "id": 25, 
+                        "name": "Read users", 
+                        "object_id": null, 
+                        "object_type": "user", 
+                        "updated_at": 1435777686480, 
+                        "updated_by": 1, 
+                        "uuid": "7cd23441-fc8a-4aeb-98f8-884d24acb3e4"
+                    }, 
+                    {
+                        "action_type": "edit", 
+                        "created_at": 1435777686484, 
+                        "created_by": 1, 
+                        "id": 26, 
+                        "name": "Edit users", 
+                        "object_id": null, 
+                        "object_type": "user", 
+                        "updated_at": 1435777686484, 
+                        "updated_by": 1, 
+                        "uuid": "b7264fcc-10ce-4b55-a7da-c1f12d4c75d8"
+                    }, 
+                    {
+                        "action_type": "add", 
+                        "created_at": 1435777686488, 
+                        "created_by": 1, 
+                        "id": 27, 
+                        "name": "Add users", 
+                        "object_id": null, 
+                        "object_type": "user", 
+                        "updated_at": 1435777686488, 
+                        "updated_by": 1, 
+                        "uuid": "a8c93bdd-fb44-4ac4-8064-1a334f3b09be"
+                    }, 
+                    {
+                        "action_type": "destroy", 
+                        "created_at": 1435777686491, 
+                        "created_by": 1, 
+                        "id": 28, 
+                        "name": "Delete users", 
+                        "object_id": null, 
+                        "object_type": "user", 
+                        "updated_at": 1435777686491, 
+                        "updated_by": 1, 
+                        "uuid": "187c47c7-4c47-4360-a1cc-2373e7a743b3"
+                    }, 
+                    {
+                        "action_type": "assign", 
+                        "created_at": 1435777686497, 
+                        "created_by": 1, 
+                        "id": 29, 
+                        "name": "Assign a role", 
+                        "object_id": null, 
+                        "object_type": "role", 
+                        "updated_at": 1435777686497, 
+                        "updated_by": 1, 
+                        "uuid": "d4786cb6-c5d1-406b-9c39-44cc424533ff"
+                    }, 
+                    {
+                        "action_type": "browse", 
+                        "created_at": 1435777686501, 
+                        "created_by": 1, 
+                        "id": 30, 
+                        "name": "Browse roles", 
+                        "object_id": null, 
+                        "object_type": "role", 
+                        "updated_at": 1435777686501, 
+                        "updated_by": 1, 
+                        "uuid": "b568c632-680d-423e-ad82-a8aefad27d33"
+                    }
+                ], 
+                "permissions_apps": [], 
+                "permissions_roles": [
+                    {
+                        "id": 1, 
+                        "permission_id": 1, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 2, 
+                        "permission_id": 2, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 3, 
+                        "permission_id": 3, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 4, 
+                        "permission_id": 4, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 5, 
+                        "permission_id": 5, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 6, 
+                        "permission_id": 6, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 7, 
+                        "permission_id": 7, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 8, 
+                        "permission_id": 8, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 9, 
+                        "permission_id": 9, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 10, 
+                        "permission_id": 10, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 11, 
+                        "permission_id": 11, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 12, 
+                        "permission_id": 12, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 13, 
+                        "permission_id": 13, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 14, 
+                        "permission_id": 14, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 15, 
+                        "permission_id": 15, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 16, 
+                        "permission_id": 16, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 17, 
+                        "permission_id": 17, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 18, 
+                        "permission_id": 18, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 19, 
+                        "permission_id": 19, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 20, 
+                        "permission_id": 20, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 21, 
+                        "permission_id": 21, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 22, 
+                        "permission_id": 22, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 23, 
+                        "permission_id": 23, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 24, 
+                        "permission_id": 24, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 25, 
+                        "permission_id": 25, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 26, 
+                        "permission_id": 26, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 27, 
+                        "permission_id": 27, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 28, 
+                        "permission_id": 28, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 29, 
+                        "permission_id": 29, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 30, 
+                        "permission_id": 30, 
+                        "role_id": 1
+                    }, 
+                    {
+                        "id": 31, 
+                        "permission_id": 8, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 32, 
+                        "permission_id": 9, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 33, 
+                        "permission_id": 10, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 34, 
+                        "permission_id": 11, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 35, 
+                        "permission_id": 12, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 36, 
+                        "permission_id": 13, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 37, 
+                        "permission_id": 14, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 38, 
+                        "permission_id": 16, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 39, 
+                        "permission_id": 17, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 40, 
+                        "permission_id": 18, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 41, 
+                        "permission_id": 19, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 42, 
+                        "permission_id": 20, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 43, 
+                        "permission_id": 21, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 44, 
+                        "permission_id": 24, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 45, 
+                        "permission_id": 25, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 46, 
+                        "permission_id": 26, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 47, 
+                        "permission_id": 27, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 48, 
+                        "permission_id": 28, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 49, 
+                        "permission_id": 29, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 50, 
+                        "permission_id": 30, 
+                        "role_id": 2
+                    }, 
+                    {
+                        "id": 51, 
+                        "permission_id": 8, 
+                        "role_id": 3
+                    }, 
+                    {
+                        "id": 52, 
+                        "permission_id": 9, 
+                        "role_id": 3
+                    }, 
+                    {
+                        "id": 53, 
+                        "permission_id": 11, 
+                        "role_id": 3
+                    }, 
+                    {
+                        "id": 54, 
+                        "permission_id": 13, 
+                        "role_id": 3
+                    }, 
+                    {
+                        "id": 55, 
+                        "permission_id": 14, 
+                        "role_id": 3
+                    }, 
+                    {
+                        "id": 56, 
+                        "permission_id": 16, 
+                        "role_id": 3
+                    }, 
+                    {
+                        "id": 57, 
+                        "permission_id": 17, 
+                        "role_id": 3
+                    }, 
+                    {
+                        "id": 58, 
+                        "permission_id": 18, 
+                        "role_id": 3
+                    }, 
+                    {
+                        "id": 59, 
+                        "permission_id": 20, 
+                        "role_id": 3
+                    }, 
+                    {
+                        "id": 60, 
+                        "permission_id": 24, 
+                        "role_id": 3
+                    }, 
+                    {
+                        "id": 61, 
+                        "permission_id": 25, 
+                        "role_id": 3
+                    }, 
+                    {
+                        "id": 62, 
+                        "permission_id": 30, 
+                        "role_id": 3
+                    }
+                ], 
+                "permissions_users": [], 
+                "posts": [
+                    {
+                        "created_at": 1355658480000, 
+                        "created_by": 1, 
+                        "id": 1, 
+                        "language": "en_US", 
+                        "markdown": "\nThis writeup is a compilation of things I wish I'd known before I started working on my Three.js app with custom shaders.\n\n## Why Use Custom Shaders?\n\nShaders run on the graphics card and give you much lower-level access to how things are rendered.  In my case, switching to custom shaders improved performance in my astronomics simulation a thousandfold and made it visually stunning:\n\n\n[{% img center http://i.imgur.com/27zYc.png %}](http://asterank.com/3d)\n\n## OpenGL Shader Language (GLSL)\n\nWebgl shaders are small programs written in a specialized language called GLSL similar to C.  It is strongly typed and includes basic data types such as `float`, `int`, and `bool`, and additional Vector data types, which are useful for graphics programming: `vec2`, `vec3`, and `vec4`.  A \"vector\" in this context is essentially a fixed-length array.  GLSL vectors contain `float`s by default, but you can specify `int` vectors as `ivec2` and `bool` vectors as `bvec2`, for example.\\*\n\nThere are two kinds of shaders: **vertex shaders** and **fragment shaders**.\n\n  - Vertex shaders manipulate the vertices of polygons (aka the points that define their shape).  This gives you control over the shape and position of things in your rendering.  At render time, your vertex shader is run on every vertex.\n\n  - Fragment shaders are also known as pixel shaders, and they determine how the pixels *between* your vertices look.  This is useful for things like lighting or gradients.\n\nYou can pass variables into shaders, either as **uniforms** or as **attributes**.  Uniforms are constant across all vertices.  Attributes can vary from vertex to vertex.  These values are supplied by Javascript.  When referenced in shaders, they are constants - you can't reassign uniform or attributes in GLSL.\n\nLet's write some simple shaders.\n\n<!-- more -->\n\nVertex shaders always run first:\n{% codeblock lang:js %}\n// These have global scope\n\nuniform vec3 color;\nattribute float size;\n\nvarying vec3 vColor;  // 'varying' vars are passed to the fragment shader\n\nvoid main() {\n  vColor = color;   // pass the color to the fragment shader\n  gl_PointSize = size;\n}\n```\n\nFragment shaders run afterwards:\n{% codeblock lang:js %}\nvarying vec3 vColor;\n\nvoid main() {\n  gl_FragColor = vec4(vColor, 0.5);  // adjust the alpha\n}\n```\n\nFor a more detailed introduction to GLSL and the graphics pipeline, take a look [here](http://nehe.gamedev.net/article/glsl_an_introduction/25007/).\n\n## Using shaders in Three.js\n\nInclude your GLSL shaders on your page in script tags, like so:\n\n{% codeblock lang:html %}\n<script type=\"x-shader/x-vertex\" id=\"vertexShader\">\n  // Your GLSL vertex shader here...\n</script>\n\n<script type=\"x-shader/x-fragment\" id=\"fragmentShader\">\n  // Your GLSL fragment shader here...\n</script>\n```\n\nBrowsers will not recognize the script type, so they won't execute your shaders as JS.\n\nIn Three.js, custom shaders use a `ShaderMaterial`.  When you create this material, you supply your custom shaders:\n\n{% codeblock lang:js %}\nmaterial = new THREE.ShaderMaterial({\n  uniforms: uniforms,\n  attributes: attributes,\n  vertexShader: document.getElementById('vertexShader').textContent,\n  fragmentShader: document.getElementById('fragmentShader').textContent\n});\n```\n\nAs you can see, a shader is just text.  Instead of loading the shader from the DOM, you may opt to include the text of your shaders directly in your JS, or you can load it via AJAX request.\n\nAs mentioned before, uniforms and attributes are variables passed to your shaders.  They are defined in your JS by type and value:\n\n{% codeblock lang:js %}\n// Define a color-typed uniform\nvar uniforms = {\n  myColor: { type: \"c\", value: new THREE.Color( 0xffffff ) },\n};\n```\n\nAttributes are defined as arrays with length equal to the number of vertices.  Each index in the array is an attribute for the corresponding vertex.\n\n{% codeblock lang:js %}\n// My float attribute\nvar attributes = {\n  size: { type: 'f', value: [] },\n};\n\nfor (var i=0; i < numVertices; i++) {\n  attributes.size.value[i] = 5 + Math.floor(Math.random() * 10);\n}\n```\n\nBe careful, type matters. A list of types available is on the [Three.js wiki](https://github.com/mrdoob/three.js/wiki/Uniforms-types).  As of writing, integer and boolean types are not allowed as uniforms or attributes.\n\n## ANGLE and Hidden Compatibility Issues\n\nIf you develop on Linux like me (or a mac), *be sure to test on Windows*.  There are nontrivial differences between webgl on Chrome/Firefox on Windows versus Linux/OSX.\n\nThis is because in nearly all cases, Windows users are running Microsoft's proprietary DirectX instead of OpenGL.  The GLSL is automatically translated to HLSL (DirectX's equivalent) via [ANGLE](http://code.google.com/p/angleproject/).  Although ANGLE is great because it makes webgl work on Windows, you may occasionally run into some issues.\n\nIn my case, the geometries with custom shaders simply didn't show up.  In other reported cases, ANGLE-generated HLSL may result in significant performance penalties due to faulty loop unrolling.\n\n### How to determine if your bug is caused by ANGLE\n\nThe symptoms are fairly straightforward: your shaders work on linux/osx but not on Windows.  If you start Chrome with the flag `--use-gl=desktop`, you will force it to use opengl and your animation should work properly.\n\n### How to debug an ANGLE problem\n\nThis part can be painful and there isn't an easy way to do it.\n\nIn my case, I generated the HLSL and manually inspected it.  You can do this by starting Chrome on windows  with `--enable-privileged-webgl-extension` and using `getTranslatedShaderSource`:\n\n{% codeblock lang:javascript %}\nvar shadertxt = document.getElementById('vertexshader');\n\nvar gl = new THREE.WebGLRenderer().getContext();\n\nvar vsh = gl.createShader(gl.VERTEX_SHADER);\ngl.shaderSource(vsh, shadertxt);\ngl.compileShader(vsh);\nif(!gl.getShaderParameter(vsh, gl.COMPILE_STATUS)) {\n    console.log(\"invalid shader : \" + gl.getShaderInfoLog(vsh));\n    var lines = shadertxt.split('\\n');\n    for (i in lines) {\n        console.log(i, lines[i]);\n    }\n};\nvar hlsl = gl.getExtension(\"WEBGL_debug_shaders\").getTranslatedShaderSource(vsh);\n\nconsole.log(hlsl);\ndocument.write(hlsl);\n```\n\nI've included a full working example in [this jsfiddle](http://jsfiddle.net/QPaRF/4/).\n\nUnfortunately, I couldn't find the bug just by eyeballing the HLSL.  I used a process-of-elimination approach where I got rid of parts of shader code until things rendered properly.  Then, I added parts back until I found the code that was causing the problem.  Hopefully there will be a better way in the future.\n\n## Conclusion\n\nIt was a lot of fun to learn about webgl shaders, and it improved my simulation drastically.  Aside from frustrating ANGLE problems (which should be uncommon), it is quite easy overall.  Good luck!\n\n#### Footnotes\n\n\\* There are also matrix types, `mat2`, `mat3`, and `mat4`, which only support floats.", 
+                        "published_at": 1355658480000, 
+                        "published_by": 1, 
+                        "slug": "introduction-to-custom-shaders-in-three-js", 
+                        "status": "published", 
+                        "title": "Introduction to Custom Shaders in Three.js", 
+                        "updated_at": 1355658480000, 
+                        "updated_by": 1, 
+                        "uuid": "02180287-3791-46e1-8a3d-08fb3d61b7ac"
+                    }, 
+                    {
+                        "created_at": 1344219180000, 
+                        "created_by": 1, 
+                        "id": 2, 
+                        "language": "en_US", 
+                        "markdown": "\nI created [Asterank](http://asterank.com), a database of economic value of all the asteroids in our solar system. It condenses about 600,000 data points to the top 100, but the numbers can be pretty difficult to grasp. I sought to create a browser-based [visualization of our solar system](http://asterank.com/3d) that illustrates its abundance of resources and mesmerizing beauty. Prior to this, I knew nothing about 3D graphics or WebGL.\n\n[{% img http://i.imgur.com/wLwAE.png %}](http://asterank.com/3d)\n\n<!-- more -->\n\n## Choosing a library\n\nI wanted the user to be able to view my models from an arbitrary point in space, so the first step was to choose a JavaScript library for browser-based 3D visualization.\n\n3D in the browser is a fast-developing space. Libraries such as [Copperlicht](http://www.ambiera.com/copperlicht/), [GLGE](http://www.glge.org/), [SceneJS](http://scenejs.org/), and [THREE.js](http://mrdoob.github.com/three.js/) are quite popular, with no major consensus on which is the best. I wound up choosing THREE.js because of its HTML5 Canvas fallback.\n\n## Getting started with THREE.js\n\nThis [basic tutorial](http://aerotwist.com/tutorials/getting-started-with-three-js/) is the place to start, introducing the concepts that will guide most of your programming: scenes, meshes, materials, lighting, and the render loop creates animation effects.\n\nThe [official examples](http://mrdoob.github.com/three.js/) helped with some basic knowledge, and taught me things like how to extrude 3D geometries from simple 2D shapes, but were not terribly helpful overall.\n\n**Jerome Etienne's [THREE.js boilerplate](https://github.com/jeromeetienne/threejsboilerplate)** was immensely useful for hitting the ground running, and he's even developed the option to generate your own [customized boilerplate](http://jeromeetienne.github.com/threejsboilerplatebuilder/) (pictured below).\n\n[{% img http://i.imgur.com/lnfWO.png %}](http://jeromeetienne.github.com/threejsboilerplatebuilder/)\n\n## Filling the knowledge gap\n\nTHREE.js documentation is very sparse and not very useful if you're just starting with 3D. Its main utility lies in the fact that it links to the source code of key classes. This became a recurring theme - the ability to read and understand source code was essential.\n\nThe official source for help is [StackOverflow](http://stackoverflow.com/questions/tagged/three.js). There is a large amount of Q&A knowledge in the github issues for the three.js project from before mrdoob decided that questions should be asked on StackOverflow.\n\n**Lee Stemkoski's [list of examples](http://stemkoski.github.com/Three.js/)** is a little-known resource, that, unlike other examples, build on one another. This is probably the best sequence of examples out there, thorough and well-thought. Someone could start here and leave with the knowledge they need for any WebGL project.\n\n[{% img http://i.imgur.com/IbSI8.png %}](http://stemkoski.github.com/Three.js/)\n\nMy project was complicated by the fact that I was working with the dev branch in order to get the EllipseCurve object, which I essentially re-implemented specifically for astronomical orbits.\n\n## Challenges and Lessons\n\n  1. Orbits - this problem was specific to my project, but I wound up poring through a decent amount of astronomy literature to understand how to correctly render orbits. My model computes basic Keplerian orbits using information mostly contained in this primer. I used an infinite series approximation for true anomaly after discovering that the Equation of Center approximation was inaccurate for some highly inclined orbits (eg. 3200 Phaethon).\n\n  2. Editing TrackballControls for scroll support - this wasn't too hard, but I added a zoom on mouse scroll. It was like binding any other event in JavaScript, but required the willingness to edit existing library source. It was important to keep in mind cross-browser differences in scroll events.\n\n  3. Optimize for performance - keep in mind that many browsers and weaker machines don't handle WebGL or canvas very gracefully. In my project, the number of asteroids is limited and their orbits are computed lazily. I also take into account that some asteroids require less computation in order to get a smooth curve, depending on their orbits.\n\n  4. Always use radians - this goes without saying, but working with astronomy examples that used degrees led to occasional slip-ups.\n\n## Conclusion\n\nFinally, an interactive 3D (well, 4D) orbit viewer that isn't a Java applet! I'm looking forward to packaging it and making it more general-use, perhaps for some sort of educational application.\n\nThe takeaway: it's easy to program cool graphics in the browser, and you should too.", 
+                        "published_at": 1344219180000, 
+                        "published_by": 1, 
+                        "slug": "how-i-built-a-canvas-webgl-visualization-with-no-graphics-knowledge", 
+                        "status": "published", 
+                        "title": "How I Built a Canvas/WebGL Visualization With No Graphics Knowledge", 
+                        "updated_at": 1344219180000, 
+                        "updated_by": 1, 
+                        "uuid": "daaec64b-cc24-40ac-8627-21226be9435b"
+                    }, 
+                    {
+                        "created_at": 1352085900000, 
+                        "created_by": 1, 
+                        "id": 3, 
+                        "language": "en_US", 
+                        "markdown": "\nThis post covers my experience building [Asterank 3D](http://asterank.com/3d), a simulation engine capable of showing tens of thousands of particles with unique trajectories. Each particle has a unique path calculated on-the-fly using laws of astrodynamics.\n\nI documented my progress as I scaled the simulation from 60 objects to 50,000 objects. Each section will cover techniques that produced significant performance gains.\n\n[{% img center http://i.imgur.com/WYPxE.png %}](http://asterank.com/3d)\n\n<!-- more -->\n\n## Use a ParticleSystem\n\nA naive implementation of the solar system view represents every single object as its own particle. While this is a convenient approach, it becomes less reliable at around 40 moving particles or so on a typical laptop.\n\nMy original code was analogous to:\n\n{% codeblock lang:js %}\nfor (var i=0; i < 100; i++) {\n  var particle = new THREE.Particle(new THREE.Vector3D(x, y, z));\n  scene.add(particle);\n}\n```\n\nRather than individually adding each particle to the scene, use a single ParticleSystem:\n\n{% codeblock lang:js %}\nvar particle_system_geometry = new THREE.Geometry();\nfor (var i=0; i < 100; i++) {\n  particle_system_geometry.vertices.push(new THREE.Vector3D(x, y, z));\n}\nvar particle_system_material = new THREE.ParticleBasicMaterial({\n  color: 0xffffff,\n  size: 1\n});\nvar particleSystem = new THREE.ParticleSystem(\n  particle_system_geometry,\n    particle_system_material\n);\nscene.add(particleSystem);\n```\n\nTo customize the appearance of your particles, you can use sprites to override the default shape.\n\nThis change will easily result in several orders of magnitude improvement. However, things like ray tracing/collision detection (which are useful for things like mouseover behaviors) become more complicated.\n\n## Browser \"multithreading\" with web workers\nJavascript is single-threaded in all browsers, which means all logic blocks the main UI thread. As a result, your simulation will feel jumpy or unresponsive to the user if the browser is busy computing many new particle positions.\n\nHTML5 Web Workers are similar to threads that communicate with the main UI thread via message passing. Running complex blocking calculations with a web worker will keep the UI updating smoothly.\n\nWeb workers are typically defined as JS files that run within their own context. They can't use any of the global variables you use in your main scripts, such as `window` or `document`. You can't do UI/DOM work in web workers, but you can perform other calculations.\n\nHere's an example webworker file:\n\n{% codeblock lang:js %}\n// in worker.js\nself.addEventListener('message', function() {\n  // We received a message from the main thread!\n  // do some computation that may normally cause the browser to hang\n  // in my case, I computed the position of an object in space according\n  // to Kepler's Laws\n\n  //  now send back the results\n  self.postMessage({\n    type: 'results',\n    data: {\n      // ...\n    }\n  })\n})\n```\n\nCreate and run the web worker from your UI code like so:\n\n{% codeblock lang:js %}\n// in your main js file\nvar worker = new Worker('worker.js');\nworker.postMessage({\n  some_data: 'foo',\n  some_more_data: 'bar'\n});\n```\n\nA practical implication of web worker context limitations is that you can't use `console.log`. In order to log messages to the console, you must pass them to the main thread. This also serves as a good example of how to use web workers to do work and pass messages back to the main thread:\n\n{% codeblock lang:js %}\n// in worker.js\nself.postMessage({\n  type: 'debug',\n  value: 'some debug message here'\n});\n// in main js file\nworker.onmessage = function(e) {\n  var data = e.data;\n  if (data.type === 'debug') {\n    console.log(data.value);\n  }\n  else if (data.type === 'result') {\n    // process results\n  }\n}\n```\n\nFor a more in-depth look at web workers, I recommend the [HTML5 Rocks](http://www.html5rocks.com/en/tutorials/workers/basics/) introduction.\n\nThe gains I saw from using a web worker to handle orbital calculations were substantial. Using a single worker allowed me to smoothly render 10,000 moving particles, as the main UI thread was no longer tied up by position calculations. Additional workers could give more gains in theory, but in my case the benefits diminished very quickly.\n\nWeb workers are supported by recent versions of all browsers except for IE (IE 10 adds web worker support). They're also supported by the default browsers on iOS and Android, but have been removed from more recent versions of Android. I created a simple [web worker compatibility library](https://github.com/typpo/web-workers-fallback) for browsers that don't have native support for workers.\n\n## Smarter execution flow with Timed Array Processing\n\nAfter adding web workers, I discovered another bottleneck. Despite having separate threads, we must update the animation on the main thread. It turns out updating the position of tens of thousands of coordinates in Three.js was lagging the simulation.\n\nMy code essentially looked like this:\n\n{% codeblock lang:js %}\n// Blocks rendering until complete\nfor (var i=0; i < 20000; i++)\n  particles[i].UpdatePosition();\n```\n\nThis simple approach delays the execution of renderAnimateFrame() and other rendering updates until the loop is completed. If the loop takes longer than your desired framerate, the simulation will lag.\n\nThe fix I implemented is based on [this article](http://www.nczonline.net/blog/2009/08/11/timed-array-processing-in-javascript/) by Nicholas Zakas, author of [O'Reilly's High-Performance JavaScript](http://www.amazon.com/gp/product/059680279X?ie=UTF8&tag=gifthor0b-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=059680279X) and other books. I wound up implementing my own version of `timedChunk`:\n\n{% codeblock lang:js %}\nfunction timedChunk(particles, positions, fn, context, callback){\n  var i = 0;\n  var tick = function() {\n    var start = new Date().getTime();\n    for (; i < positions.length && (new Date().getTime()) - start < 50; i++) {\n      fn.call(context, particles[i], positions[i]);\n    }\n    if (i < positions.length) {\n      // Yield execution to rendering logic\n      setTimeout(tick, 25);\n    } else {\n      callback(positions, particles);\n    }\n  };\n  setTimeout(tick, 25);\n}\n```\n\nIn this solution, `setTimeout` yields execution flow to things like calls to `animate()`. Even a setTimeout of 0 would work for this purpose, as calling it with no delay simply passes execution flow to whatever's waiting.\n\nUsing `timedChunk` allowed me to increase the number of web workers because it eliminated the UI thread bottleneck.\n\n## Using custom shaders\n\nFinally, I saw a huge improvement in smoothness of the simulation by writing a custom shader for my particle system.\n\nThis effectively moved all the complex position calculations for my particles to the GPU, which went a long way toward ensuring the speed and reliability of the simulation.  Custom shaders are written in GLSL, which is close enough to C that it's not too difficult to translate your math into.\n\nAt this point, the number of particles I could show on my desktop became so high that I chose to limit it so laptops with weaker graphics cards could handle the simulation.\n\nYou will see significant gains with custom shaders, especially if your particles have independent trajectories.  I wrote a quick intro to shaders [here](http://www.ianww.com/blog/2012/12/16/an-introduction-to-custom-shaders-with-three-dot-js/).\n\n## Conclusion\n\nI went from lagging at ~60 moving particles to being able to smoothly render 50,000+ independently moving particles.\n\nAlthough webgl performance lags behind native capabilities, it's only a matter of time until the technology and hardware catch up. Until then, I hope this post helps anyone who's running into similar performance issues.\n\nFollow me: [@iwebst](http://twitter.com/iwebst)", 
+                        "published_at": 1352085900000, 
+                        "published_by": 1, 
+                        "slug": "optimizing-three-js-performance:-simulating-tens-of-thousands-of-independent-moving-objects", 
+                        "status": "published", 
+                        "title": "Optimizing Three.js Performance: Simulating Tens Of Thousands Of Independent Moving Objects", 
+                        "updated_at": 1352085900000, 
+                        "updated_by": 1, 
+                        "uuid": "ad1a5030-df3a-4a7e-a63f-e52293569bbe"
+                    }, 
+                    {
+                        "created_at": 1356480420000, 
+                        "created_by": 1, 
+                        "id": 4, 
+                        "language": "en_US", 
+                        "markdown": "\nI woke up on Christmas morning to many emails and tweets about [Asterank](http://asterank.com/3d), a 3D space visualization.  Intrigued, I checked mixpanel and was shocked: in less than 8 hours overnight, I had received over 75,000 uniques thanks to a [reddit submission](http://www.reddit.com/r/science/comments/15epyp/amazing_solar_system_visualization_showing_all/).\n\nThen, to my horror, I realized the site had been down for about 3 hours.\n\n<!--more-->\n\nQuick background: Asterank runs on nginx, node, and mongo on EC2 with Cloudflare for a CDN.  The 3D visualization loads a static page and grabs data via AJAX.\n\n## Mongo crashes\n\nServer logs immediately told me mongo wasn't running.  I had mongo crashes like this before, caused by large, unique queries with limited RAM.\n\n\nWhen mongo crashes due to some combination of insufficient CPU/RAM, it leaves a `.lock` file in `/var/lib/mongo`.  If this file exists, mongo refuses to start and tells you to repair the database.  Unfortunately, repairing wouldn't work in my crashed state, so the only solution was to manually delete the lock.\n\n## Recovering\n\nAlthough mongo was up, the endpoint site was not returning results.  I spent about 15 minutes trying to figure out what the issue was and frustratedly restarting node.  I also purged the Cloudflare cache, which was ineffective because AJAX results are not considered static data.\n\nFinally, I remembered that I'd [configured](https://github.com/typpo/asterank/blob/master/nginx/asterank) nginx to cache things.  Clearing the cache manually and restarting nginx did the trick, and the site was finally online after a little more than 3 hours of downtime.\n\n## The Aftermath\n\nThe site was back up, but the traffic and reddit post had understandably stagnated beause of the 3 hours of downtime.  **About 20,000 unique visitors had gone to the site and seen an error message.**  Although I continue to get traffic from reddit and other sources, it is nowhere near the 2+ users per second I was getting overnight.\n\n## Things I did right\n\n#### nginx caching\n\nMy nginx cache setup saved multiple mongo queries per second until it was brought down by a few too many unique queries, which are generated on the main site.  This was essential in dealing with a massive increase in traffic for as long as I did.\n\n#### CDN\n\nI started using Cloudflare on a whim a couple weeks ago, in conjunction with my move off a tiny 512MB linode.  This was fortuitous, as it saved me a ton of bandwidth and vastly improved load times under heavy traffic.\n\n## Things I did wrong\n\n#### Accurate HTTP status for AJAX endpoints\nIf I had programmed my AJAX endpoint to give a 500 on mongo failure, it's possible that this downtime would have been avoided altogether.  Cloudflare has an always-up feature which caches pages in case things go down.  Also, nginx would have cached the failed results for a much shorter period of time.\n\n#### Unnecessary dependency on mongo\n\nThe 3D portion of the site could be made completely static.  The interface constrains users to 3 possible queries, each for a different scoring function.  I should have cron'ed mongo results to a file every 24 hours or so.  This is an obvious optimization and would have protected the visualization from a mongo failure.\n\n#### Monitoring\n\nSince I knew that mongo could die like this, I had written a script to automatically recover.  But I wasn't running it because I'd recently upgaded servers and the crash stopped happening.\n\nFor additional peace of mind, I could have set up an endpoint that checks the health of the mongo server.  This could have been done with [Pingdom](http://pingdom.com) or even manually with a cron + my [free sms api](http://textbelt.com) (shameless plug).\n\n## Should I have been prepared?\n\nIn the tech community, emphasis tends to be on moving fast, iterating, getting eyeballs and feedback.  People apply this advice to side projects, but in my case it would've been good to prepare more.\n\nI can kick myself for disappointing more than 20,000 people, but Asterank is a science project that doesn't generate any revenue.  Making reddit's frontpage was unthinkable until it actually happened.\n\nShould I have showed the world *right now*, or I should I have spent a couple days optimizing it for a single, improbable event.  Who knows.", 
+                        "published_at": 1356480420000, 
+                        "published_by": 1, 
+                        "slug": "80-000-visitors-on-christmas-morning:-a-post-mortem", 
+                        "status": "published", 
+                        "title": "80,000 visitors on Christmas morning: a post-mortem", 
+                        "updated_at": 1356480420000, 
+                        "updated_by": 1, 
+                        "uuid": "c6eff028-f98b-4edd-8b4c-ecfe30c3880a"
+                    }, 
+                    {
+                        "created_at": 1359423180000, 
+                        "created_by": 1, 
+                        "id": 5, 
+                        "language": "en_US", 
+                        "markdown": "\n2012 DA14 is a near-Earth asteroid that will pass extremely close to the Earth by astronomical standards around February 15, 2013.  At its closest, 2012 DA14 will pass nearer than the moon and likely within the orbits of some geosynchronous satellites.  It was first discovered and observed less than a year ago, in February 2012.\n\n<!-- more -->\n\n## Orbital Visualization\n\n2012 DA14 is an Apollo asteroid, a class of asteroids with orbits very similar to Earth's.  This characteristic makes some Apollo asteroids dangerous to our planet.\n\nThe asteroid's semimajor axis is the same length Earth's, and it makes a trip around the sun every 366 days.  To give you a sense of how similar the orbits are, below is a 2D representation in which the white circle represents 2012 DA14's orbit (via [Asterank](http://asterank.com)):\n\n![center http://i.imgur.com/XMRdg.png](center http://i.imgur.com/XMRdg.png)\n\nThis graphic gives a good sense of the orbits from above, but doesn't show the difference between the plane of orbits of the asteroid and Earth.  In the rendering below, the disk of Earth's orbit is gray; the yellow indicates the disk of DA14's orbit while it is above Earth's disk, and the blue indicates the orbit while it is below (courtesy of the [Minor Planet Center](http://www.minorplanetcenter.net/db_search/show_orbit?epoch=2012-03-14.0&number=&designation=2012+da14&name=&peri=271.0769445&m=103.36246&node=147.2944524&incl=10.3398998&e=0.108240538&a=1.0017159&commit=Interactive+Orbit+Sketch)).\n\n![http://i.imgur.com/O0Ifl.png](http://i.imgur.com/O0Ifl.png)\n\nClick for the Minor Planet Center's [animated version](http://www.minorplanetcenter.net/iau/special/animations/k12d14a.gif) (55 MB) or a [close-up animated version](http://www.minorplanetcenter.net/iau/special/animations/k12d14a-2.gif) (1.2 MB).\n\n## Interactive Visualization in Context\n\n[Asterank](http://asterank.com/) is an asteroid database with a [3D rendering engine](http://asterank.com/3d) that accurately displays thousands of objects in our solar system and their orbits in a realtime simulation.\n\nIn preparation for the upcoming pass, I designated 2012 DA14 as a 'significant object' in the simulation, meaning you can follow its orbit around and see the near miss of Earth.  Take a look at the [2012 DA14 lock-on view](http://asterank.com/3d/?2012_DA14=1) (requires WebGL).\n\n[{% imgcap http://i.imgur.com/uU7l1.png Earth (blue) and 2012 DA14 (red) passing on Asterank. %}](http://asterank.com/3d/?2012_DA14=1)\n\nClicking above will take you to Earth (green/blue)  on November 1st 2012, where the upcoming close pass of 2012 DA14 (red) is already apparent.  Around February 15th, you can see the orbits nearly intersect.\n\n## Asteroid-POV\n\nThis rendering of the pass is done in [Cosmographia](http://www.cosmographia.info/) from the point of view of the asteroid itself:\n\n<iframe width=\"560\" height=\"315\" src=\"http://www.youtube.com/embed/S7YTmS6U8WM\" frameborder=\"0\" allowfullscreen></iframe>\n\n## No Potential Impact\n\nRegardless of the uncertainty reported by media (and how close things look in the simulation), 2012 DA14 will *not* hit Earth in 2013.  In fact, 2012 DA14 is not even classified as a Potentially Harmful Object (PHA) by the Minor Planet Center, the authority on minor planetary bodies in our solar system.\n\nThese visualizations exaggerate the scale of objects in space.  Even at its closest, 2012 DA14 will require a powerful telescope to see in our night sky.\n\n[Scientists estimate](http://www.nasa.gov/mission_pages/WISE/multimedia/gallery/neowise/pia14734.html) the actual number of asteroids out there, accounting for undiscovered asteroids, could be more than 10 times the number currently known.  In other words, our inner solar system is almost 1,000 times more crowded than depicted by the cloud of asteroids on Asterank.\n\n## Further Information and Reading\n\nAs a disclaimer, the orbit of 2012 DA14 after its near pass in February is not predictable.  The calculations used in the graphics and simulations above will not be accurate after the fact due to the effects of Earth's gravity on the orbit of the asteroid.  However, observation by the Minor Planet Center and other astronomers will bring this information up-to-date.\n\nFor more, please see J.L. Galache's excellent write-up on the subject on the Minor Planet Center blog, [Clearing Up The FUD on 2012 DA14](http://minorplanetcenter.net/blog/clearing-up-the-fud-on-2012-da14/).", 
+                        "published_at": 1359423180000, 
+                        "published_by": 1, 
+                        "slug": "visualizing-asteroid-2012-da14-s-upcoming-near-miss", 
+                        "status": "published", 
+                        "title": "Visualizing Asteroid 2012 DA14's Upcoming Near Miss", 
+                        "updated_at": 1359423180000, 
+                        "updated_by": 1, 
+                        "uuid": "14ab0b70-1d18-420f-9200-2685545e2455"
+                    }, 
+                    {
+                        "created_at": 1358216040000, 
+                        "created_by": 1, 
+                        "id": 6, 
+                        "language": "en_US", 
+                        "markdown": "\nIn order to support WebGL on Windows, browsers use [ANGLE](http://code.google.com/p/angleproject/), short for Almost Native Graphics Layer Engine.  ANGLE is an API that translates OpenGL calls to DirectX calls, necessary because most of the time Windows users are running DirectX, Microsoft's proprietary graphics framework, rather than OpenGL.\n\nBecause Microsoft [refuses to support](http://arstechnica.com/information-technology/2011/06/microsoft-no-way-to-support-webgl-and-meet-our-security-needs/) WebGL directly, ANGLE is developed mostly at Google and used by Firefox and Chrome to provide webgl support on Windows.  The lack of built-in support for OpenGL can cause some frustrating issues in WebGL development.\n\n<!--more-->\n\n### Is the bug caused by ANGLE?\n\nThis step is typically straightforward.  Your shaders don't work on most Windows environments.\n\nTo verify, start Chrome with the flag `--use-gl=desktop`. You will force it to use opengl and your animation should work properly.  If your animation works properly, there is a bug in ANGLE-generated HLSL.\n\n### Debugging the ANGLE problem\n\nYou may gain some insight by manually inspecting the ANGLE-generated HLSL.  To obtain HLSL source, start Chrome on windows  with `--enable-privileged-webgl-extension`.  Then, use the `getTranslatedShaderSource` API call:\n\n{% codeblock lang:javascript %}\nvar shadertxt = document.getElementById('vertexshader');\n\nvar gl = new THREE.WebGLRenderer().getContext();\n\nvar vsh = gl.createShader(gl.VERTEX_SHADER);\ngl.shaderSource(vsh, shadertxt);\ngl.compileShader(vsh);\nif(!gl.getShaderParameter(vsh, gl.COMPILE_STATUS)) {\n    console.log(\"Invalid shader : \" + gl.getShaderInfoLog(vsh));\n    var lines = shadertxt.split('\\n');\n    for (i in lines) {\n        console.log(i, lines[i]);\n    }\n};\nvar hlsl = gl.getExtension(\"WEBGL_debug_shaders\").getTranslatedShaderSource(vsh);\n\nconsole.log(\"Your shader's HLSL code:\", hlsl);\n```\n\nI've included a full working example in [this jsfiddle](http://jsfiddle.net/QPaRF/4/), which outputs the HLSL translation of a GLSL shader.  Note that you must be running Chrome with the `--enable-privileged-webgl-extension` flag.\n\n## Next Steps\n\nActually identifying the issue can be painful.  This can vary based on the problem.  For example, loop unrolling bugs or other translation idiosyncracies should be obvious.  But smaller bugs may require further troubleshooting:\n\n  * The language is very similar to GLSL, and it may be possible to follow the shader logic, note the area that is wrong, and refactor GLSL code to work around it.\n  * Binary search/process of elimination. Simplify your shader, removing parts of code until it works on Windows.  If you do this systematically, you can find the code that causes the problem.\n  * Other debugging tools.  Extensions like the [Chrome WebGL Inspector](https://chrome.google.com/webstore/detail/webgl-inspector/ogkcjmbhnfmlnielkjhedpcjomeaghda?hl=en) may prove useful if you run them on your Windows machine.\n\n### Overall\n\nI'm very thankful for ANGLE and the work that people have contributed to the project.  If it weren't possible to write WebGL for modern browsers on Windows, WebGL would be more of a toy than a powerful framework with growing browser support and market share.  ANGLE has been improving quickly, and someday there will be no more issues.\n\nHopefully this post helps someone who is also running into mysterious Windows WebGL bugs.  Good luck!", 
+                        "published_at": 1358216040000, 
+                        "published_by": 1, 
+                        "slug": "debugging-angle-errors-in-webgl-on-windows", 
+                        "status": "published", 
+                        "title": "Debugging ANGLE errors in WebGL on Windows", 
+                        "updated_at": 1358216040000, 
+                        "updated_by": 1, 
+                        "uuid": "c2f7705d-6469-4c5d-a9f8-5dcddde18a79"
+                    }, 
+                    {
+                        "created_at": 1388515020000, 
+                        "created_by": 1, 
+                        "id": 7, 
+                        "language": "en_US", 
+                        "markdown": "\nSide projects are a good way to stay sane and keep sharp.  2013 was a crazy year - my side projects were a lot of fun and they opened many opportunities.\n\n6 total worth talking about, in chronological order:\n\n* [In 2013 Dollars](http://in2013dollars.com) - inflation reference\n* [Verified Facts](http://verifiedfacts.org) - conspiracy theory generator\n* [Watchtower](http://gowatchtower.com) - b2b competitive monitoring\n* [Asterank](http://asterank.com) - data management and calculations for space/asteroid exploration\n* [autoreload.js](http://github.com/typpo/autoreload) - frontend dev tool\n* [Candid Candidates](http://github.com/typpo/political-annotations) - political/open government browser extension\n\n![center http://i.imgur.com/IsRaZtp.png](center http://i.imgur.com/IsRaZtp.png)\n\n<!-- more -->\n\n## In 2013 Dollars\n\n[in2013dollars.com](http://in2013dollars.com) is the world's most boring side project, a quick way to look up how inflation has changed the value of a dollar.  This was a weekend endeavor prompted by the difficulty of finding this information on the internet.\n\n{% imgcap center http://i.imgur.com/EygnL3om.png The simplest way to look up inflation.&trade; %}\n\nIt was a good exercise in SEO and sitemaps.  I think it started ranking better over time, even though I haven't touched it in nearly a year.\n\n{% imgcap center http://i.imgur.com/1oTVycpm.png About 7k lookups per month now. %}\n\nUnfortunately I wasn't exactly thinking ahead when I chose the name.  The economic data will also need to be updated soon.  The\nsource is available [on github](https://github.com/typpo/inflation).\n\n## Verified Facts\n\n[Verified Facts](http://verifiedfacts.org) generates random conspiracy theories.  They sound crazy but they're close enough to real ones that it can be hard to tell the difference.  This was a lot of fun to make.\n\n![center http://i.imgur.com/83VS00w.png](center http://i.imgur.com/83VS00w.png)\n\nIt went viral with over a half a million conspiracies generated.  The highlight was when Neil Gaiman tweeted it to over a million people.  Viral traffic spikes can be thrilling and nerve-wracking.  We endured it with no downtime on a ec2 micro thanks to some clever caching + redis on top of mongo.\n\n11 months later, the site ranks well for many conspiracy searches and is being found by people who aren't in on the joke.  Here's a sample of recent search traffic:\n\n{% imgcap center http://i.imgur.com/tdg0yYn.png verifiedfacts.org is making the world a worse place. %}\n\nI wrote a more in-depth post on it, including an explanation of how it works [here](http://www.ianww.com/2013/02/04/how-to-generate-a-conspiracy-theory/).\n\n## Watchtower\n\nI built [Watchtower](http://gowatchtower.com) with a few other guys from [Room 77](http://room77.com/?new=1) for Jason Calcanis's LAUNCH hackathon.  It's a service that watches your competitors' websites and lets you know when they change certain things.  This is good for detecting their A/B tests, new marketing campaigns, etc.\n\n{% imgcap center http://i.imgur.com/s5LfeW8.png Watching Amazon's top ad. %}\n\nWe unexpectedly made it past the first couple judging rounds.  Before we knew it we were presenting to an audience of 1,000+ conferencegoers in a huge auditorium.  I'm including this embarrassing video for completeness.\n\n{% youtube 812vR1rHttg %}\n\nI'd love to work more on Watchtower because I think the idea is really compelling.  Unfortunately it's hard to corral 4 hackathon participants to work on things long term.  We're considering some offers to sell it.\n\n## Asterank\n\nMy side-project-turned-startup [Asterank](http://asterank.com) was acquired by Planetary Resources, the asteroid mining company.  I started the project in 2012 and in June this year I signed the papers.\n\n{% imgcap center http://i.imgur.com/LW3Q3LEm.png Woah. %}\n\nI also rolled out a crowdsourced asteroid discovery app called [Asterank Discover](http://asterank.com/discover).  To date, people have reviewed over 115,000 images and spotted hundreds of potential asteroids, a significant contribution to science.\n\nNow Asterank Discover is getting rolled into \"Asteroid Zoo\" at Planetary Resources, which was in the news recently when we [announced](http://www.nbcnews.com/science/nasa-planetary-resources-partner-asteroid-hunting-contests-2D11638181) our partnership with NASA, the Adler Planetarium, and the Catalina Sky Survey.\n\nThe other cool part about my Asterank project is that it got me several speaking invitations and job offers.\n\nIn June I spoke at _ideacity_, which is like Canadian TED.  It was an awesome experience and I met tons of fun and interesting people.  It was also a good exercise in public speaking, which I don't do much.\n\n{% youtube AM9T5H1penM %}\n\nAnd this November I spoke at the World Technology Awards in New York, where I was nominated for an award in the Space category.  My competition included Elon Musk (SpaceX, Tesla), the founders of Planetary Resources, and the director of NASA AMES, so I was honored to be nominated and ok with not winning.\n\n{% imgcap center http://i.imgur.com/LAxxykom.jpg At the World Technology Awards in NYC.  Yeah, I wore the same thing. %}\n\nThis project was the catalyst for my full-time plunge into building spacecraft.  I could write a lot more about my journey with Asterank, but I've [written about it](http://www.ianww.com/blog/blog/categories/asterank/) in the past and I don't want to bore you to tears.\n\nAsterank is [open source](https://github.com/typpo/asterank).\n\n## autoreload.js\n\nA tool for frontend developers that automatically refreshes the page when you make changes to files.  I made this because pressing F5 sucks.  HN didn't like it but about 40 people per week install it via npm, which is fine by me.\n\n{% imgcap center http://i.imgur.com/fH3Zx6X.png Not as interesting as space travel. %}\n\nOpen source [here](https://github.com/typpo/autoreload).\n\n## Candid Candidates\n\nI moved to Seattle and figured I had to try a Seattle hackathon.  I joined the [meetup group](http://www.meetup.com/Seattle-Hackathons/) and saw that there was a Seattle Open Government hackathon the next week, hosted by [Lincoln Labs](http://lincolnlabs.com/).\n\nWe built a chrome extension that annotates news sites with important political context, campaign donations, and contact info.  You hover over politicians' names and get that info.\n\nEveryone knows that politicians are bought and sold, but that info is hard to get and it's not there when you need it most.  This is a step toward passive political consciousness.\n\n{% imgcap center http://i.imgur.com/C2QG9ZOm.png Hover over Ted's name to get his contact info and see who gives him money. %}\n\nWe won $1500 (2nd prize).  It's also [open source](https://github.com/typpo/political-annotations), but needs some cleanup.  One of my first goals for the new year is to get this in working order so I can promote it and make the world a better place.\n\n## Looking forward\n\nMy birthday is also at the end of the year, which makes me extra reflective.  I don't know where I am headed in nearly any aspect of life, but these projects give me a way to explore options.  Next year I'd like to focus on my relationships and being healthy.  With luck, I'll figure all that out while still building interesting things.\n\nFollow me: [@iwebst](http://twitter.com/iwebst)\n", 
+                        "published_at": 1388515020000, 
+                        "published_by": 1, 
+                        "slug": "my-year-in-side-projects", 
+                        "status": "published", 
+                        "title": "My year in side projects", 
+                        "updated_at": 1388515020000, 
+                        "updated_by": 1, 
+                        "uuid": "967a9b64-d708-40b4-9ccd-1c9926b7d0f5"
+                    }, 
+                    {
+                        "created_at": 1364232300000, 
+                        "created_by": 1, 
+                        "id": 8, 
+                        "language": "en_US", 
+                        "markdown": "\nScientists have discovered over 3,000 potential \"exoplanets\" - planets that orbit stars outside our solar system.  As part of my affinity for interactive renderings of cool space stuff, I've built a simple webgl viewer and API for exoplanet data.\n\n[{% img center http://i.imgur.com/YiP4z3R.png %}](http://www.asterank.com/exoplanets)\n\n<!-- more -->\n\n## Building the API\n\nThe best data source for exoplanets that I found is the NASA Exoplanet Archive.  They have an [API](http://exoplanetarchive.ipac.caltech.edu/docs/program_interfaces.html), but it is not queryable and essentially a data dump.\n\nBecause there are only 3,000 candidate exoplanets (or less, depending on your dataset), the usefulness of a full API is questionable.  But there's something to be said for making scientific space-related data more open.  And because Asterank makes it easy to pipeline/organize datasets such as these, it was a simple extension that required little work.\n\n## The visualization\n\nThis project was inspired by a handful of videos floating around, mostly of Jer Throp's visualization ([source code](https://github.com/blprnt/Kepler-Visualization)).  I thought it was great and the only thing it lacked was interactiveness.\n\nCreating an interactive visualization was straightforward.  I tweaked inputs to the [Asterank](http://asterank.com) engine, setting colors to reflect planets' equilibrium temperatures and marking the planets that support temperatures livable by humans.\n\n## Next steps\n\nThe resulting [Asterank Exoplanet Visualization](http://asterank.com/exoplanets) is interesting but not too informative.  I could have added a data view similar to how I did the [main site](http://asterank.com), but I opted for a cleaner, more visual experience.\n\nThe ability to add or adjust other dimensions would add a lot.  For example, people may be interested in the size and characteristics of the central star.\n\nI'd also like to create an alternate visualization that shows our sun at the center and the relative positions of all the exoplanet host stars.  It would be like a basic galaxy map from the future.\n\n## The economics of exoplanets\n\nIn a similar vein to Asterank, astrophysicist Greg Laughlin posted an unusual ballpark [equation](http://boingboing.net/2011/02/03/cosmic-commodities-h.html) that estimates the economic value of an exoplanet.\n\n![center http://boingboing.net/filesroot/bigequation.jpg](center http://boingboing.net/filesroot/bigequation.jpg)\n\nWhile it obviously does not measure a true dollar value we can realize in our lifetimes, perhaps this equation is a proxy for how interesting a planet is to future settlers.  This hasn't made it into my simulation, but it's another thing to think about.", 
+                        "published_at": 1364232300000, 
+                        "published_by": 1, 
+                        "slug": "a-basic-kepler-exoplanet-visualization", 
+                        "status": "published", 
+                        "title": "A Basic Kepler Exoplanet Visualization", 
+                        "updated_at": 1364232300000, 
+                        "updated_by": 1, 
+                        "uuid": "c1b9861f-e11b-4edc-9955-d2a03b862f93"
+                    }, 
+                    {
+                        "created_at": 1392659760000, 
+                        "created_by": 1, 
+                        "id": 9, 
+                        "language": "en_US", 
+                        "markdown": "\nIn three.js, the illusion of a sky is often made using a \"skybox,\" a cube made up of 6 images that fold up neatly.  The user's perspective is placed within the cube, giving the illusion of being contained in a 3D environment.\n\nThis tutorial explains how to create a \"skydome\" or \"skysphere.\"  Similar to a skybox, a skydome or skysphere is a way to create the illusion of a sky in your 3D environment.\n\n<!-- more -->\n\nUsing three.js's SphereGeometry, it is quite simple:\n\n{% codeblock lang:js %}\nvar geometry = new THREE.SphereGeometry(3000, 60, 40);\nvar uniforms = {\n  texture: { type: 't', value: loadTexture('/path/to/my_image.jpg') }\n};\n\nvar material = new THREE.ShaderMaterial( {\n  uniforms:       uniforms,\n  vertexShader:   document.getElementById('sky-vertex').textContent,\n  fragmentShader: document.getElementById('sky-fragment').textContent\n});\n\nskyBox = new THREE.Mesh(geometry, material);\nskyBox.scale.set(-1, 1, 1);\nskyBox.eulerOrder = 'XZY';\nskyBox.renderDepth = 1000.0;\nscene.add(skyBox);\n```\n\nNotice that we reference some shaders #sky-vertex and #sky-fragment.  For a simple sky, these shaders just map to your texture and not much else:\n\n{% codeblock lang:html %}\n<script type=\"application/x-glsl\" id=\"sky-vertex\">\nvarying vec2 vUV;\n\nvoid main() {\n  vUV = uv;\n  vec4 pos = vec4(position, 1.0);\n  gl_Position = projectionMatrix * modelViewMatrix * pos;\n}\n</script>\n\n<script type=\"application/x-glsl\" id=\"sky-fragment\">\nuniform sampler2D texture;\nvarying vec2 vUV;\n\nvoid main() {\n  vec4 sample = texture2D(texture, vUV);\n  gl_FragColor = vec4(sample.xyz, sample.w);\n}\n</script>\n```\n\n[Asterank](http://asterank.com) uses this code to render the ESO's famous high-resolution panorama of the milky way:\n\n![center https://www.eso.org/public/archives/images/medium/eso0932a.jpg](center https://www.eso.org/public/archives/images/medium/eso0932a.jpg)\n\nAnd in the simulation:\n\n![center http://i.imgur.com/Wm6gobE.png](center http://i.imgur.com/Wm6gobE.png)\n\n## Why not SkyBox?\n\nIt can be frustrating to find good skybox images.  You can create your own via Blender, but the process is somewhat involved.  Depending on your image, you may have to do some manipulation to eliminate seams and other graphical artifacts.  In the end I wound up downloading a bunch of software and not being happy with the outcome.\n\nIn my opinion, it's much easier to create a 'skydome' or a 'skysphere' with just a single image.\n\nThere are some tradeoffs, as noted in [this stackoverflow post](http://stackoverflow.com/questions/3912207/skybox-vs-skysphere).  But in most cases, I find it much easier to deal with a single image instead of 6 cube images.\n\nHappy coding!  Follow me on twitter [@iwebst](https://twitter.com/iwebst).", 
+                        "published_at": 1392659760000, 
+                        "published_by": 1, 
+                        "slug": "making-a-skydome-in-three-js", 
+                        "status": "published", 
+                        "title": "Making a skydome in three.js", 
+                        "updated_at": 1392659760000, 
+                        "updated_by": 1, 
+                        "uuid": "4468c014-a4f9-4287-ab72-24818be3526e"
+                    }, 
+                    {
+                        "created_at": 1369787280000, 
+                        "created_by": 1, 
+                        "id": 10, 
+                        "language": "en_US", 
+                        "markdown": "\nThe universe is a big place.  There are an estimated 170 billion galaxies, averaging hundreds of billions of stars each.  The largest structures in the universe are giant \"sheets\" and \"filaments\" of matter, comprised by galaxies and shaped by mutual gravitational forces.\n\nIn 2005, the largest n-body computer simulation ever, dubbed the \"[Millenium Run](http://en.wikipedia.org/wiki/Millennium_Run),\" simulated only about 0.01% of the total.\n\nUsing [three.js](http://threejs.org) and some of the visualization techniques behind [Asterank](http://asterank.com), I've created a [visualization](http://www.asterank.com/galaxies) of part of the Millenium Run, spanning about 5 million galaxies and a billion light-years.\n\n[{% img center http://i.imgur.com/mzwBJ8Sl.jpg %}](http://www.asterank.com/galaxies)\n\n<!-- more -->\n\n## Getting the data\n\nI prototyped with the milli-millenium database, a tiny version of the Millenium dataset made available to the general public.  I requested full access after I was satisfied that I could make a decent visualization.  Gerard Lemson, one of the people in charge of the Millenium Run, was very kind and made the full database available for my use.\n\nThe amount of data is huge.  Due to query constraints, I wound up slowly scraping most of the database and storing it locally in flat files.  I chose to scrape/visualize a cube within the larger simulation spanning a billion light years.\n\n## Performance tricks\n\nThis is by far the most GPU-intensive simulation I've done.  It won't run well without an ok graphics card.  And it definitely won't run on your phone.\n\n### Reducing points with spatial compression\n\nIt's not necessary to actually render millions of points for typical screen resolutions. I created a preprocessing algorithm for combining particles that overlapped visually with one another.  Particles representing masses of dark matter are combined based on their size and luminosity.  Using an [R-tree](http://en.wikipedia.org/wiki/R-tree), nearby neighbors are fitted and combined in the visualization coordinate system to reduce extra rendering.\n\n[{% img center http://upload.wikimedia.org/wikipedia/commons/thumb/5/57/RTree-Visualization-3D.svg/400px-RTree-Visualization-3D.svg.png  %}](http://en.wikipedia.org/wiki/R-tree)\n\nThis reduced the number of particles rendered by an order of magnitude without significantly affecting the overall appearance of the visualization.  As a result, decent laptops (eg. my 11\" macbook air) can run the simulation.\n\n### Adjusting simulation based on fps\n\nThe simulation also changes based on user fps.  Someone whose computer and graphics card are more powerful will see a tilt shift and better rotation.  Despite the small change, this enabled the simulation to run on a class of laptops that otherwise would not have had access to it.\n\nThe code uses a simple FPS counter, available [on github](https://github.com/typpo/millenium-viz/blob/master/web/fps.js).\n\n## Next steps\n\nUnfortunately I haven't come up with a way to visualize the passage of time without drastically cutting down on the scope and overall accuracy of the visualization.  Frankly, this is why the visualization is merely interesting instead of really amazing.  It's about 40,000 data points per timestep, with about 50 timesteps.  I'll be looking at ways to improve this.\n\nUntil then, it's not very useful, but it looks nice:\n\n[{% img center http://i.imgur.com/jvXHetZl.jpg %}](http://www.asterank.com/galaxies)", 
+                        "published_at": 1369787280000, 
+                        "published_by": 1, 
+                        "slug": "a-billion-light-years-in-3d", 
+                        "status": "published", 
+                        "title": "A billion light years, in 3D", 
+                        "updated_at": 1369787280000, 
+                        "updated_by": 1, 
+                        "uuid": "47385dda-8aa4-41af-a25a-98a6a4ac015f"
+                    }, 
+                    {
+                        "created_at": 1365973620000, 
+                        "created_by": 1, 
+                        "id": 11, 
+                        "language": "en_US", 
+                        "markdown": "\nAbout a year ago I created [KeepDream](http://keepdream.me) on a whim. It emails me every morning and asks what I dreamt last night.\n\n<!-- more -->\n\nI have no idea if dreams are special, but they are sometimes fun and I like to see trends over time.  Here is an example dream I recorded on March 31st:\n\n> Given the option to turn into elephant for 2 weeks. At a dirt pen with olivia and we\n> are about to turn into elephants. But then I start to have doubts, and I'm\n> embarrassed to say it, but I definitely start feeling like I don't want to\n> turn into an elephant. I realize that I value my humanity and that as an\n> elephant I also wouldn't be able to speak or express things clearly for 2\n> weeks. olivia has similar doubts and we don't wind up becoming elephants.\n\nMost of my dreams were recorded in this single-paragraph description format.  Many are more serious and deal with relationships and so on.\n\nFor context, I began recording these in the spring of 2012, a year after I graduated college and started work as a software engineer.\n\n## Text analysis\n\nI tokenized and lemmatized my dreams, then extracted n-grams and parts of speech.  They are provided here for your enjoyment (all names have been anonymized):\n\n### Top unigrams\n\n![center http://i.imgur.com/zcvH8Bx.png](center http://i.imgur.com/zcvH8Bx.png)\n\n[top 100 unigrams](https://gist.github.com/typpo/5384257)\n\n### Top bigrams\n\n![center http://i.imgur.com/Jqf9WLg.png](center http://i.imgur.com/Jqf9WLg.png)\n\n[top 100 bigrams](https://gist.github.com/typpo/5384288)\n\n## Dream topics\n\nMost of my dreams just involve doing things with friends.  I picked out some recurring topics:\n\n{% blockquote %}\ncollege: 25+\nhigh school: 15+\nwork: 12\nplane crashes: 11\ntrain rides: 8\nin which someone dies: 7\nspace/spaceships: 4\nzombies: 3\nbeing able to fly: 1\n{% endblockquote %}\n\n## More text analysis..\n\n### Top trigrams\n\n{% blockquote %}\na bunch of: 11\nwith mom and: 10\nthe old house: 10\na lot of: 9\nsophia and i: 8\nsome sort of: 8\nwith a bunch: 7\ni realize that: 7\nhanging out with: 7\nin a big: 5\n{% endblockquote %}\n\n[top 100 trigrams](https://gist.github.com/typpo/5384301)\n\n### Top verbs\n\npresent:\n\n{% blockquote %}\ngoing\ntrying\nbeing\ngetting\nlooking\ndoing\nhaving\ndriving\nworking\nrunning\n{% endblockquote %}\n\npast:\n\n{% blockquote %}\nworried\nrelated\ncaught\nannoyed\ncaused\nassigned\ninspired\n{% endblockquote %}\n\n### Top nouns\n\n{% blockquote %}\npeople\nthings\nfriends\nkids\nlots\nothers\nhs\nguys\nguards\n{% endblockquote %}\n\n### Comparative adjectives\n\n{% blockquote %}\nmore\nbigger\nsmaller\nbetter\nyounger\nless\nolder\nnarrower\n{% endblockquote %}\n\n## My conclusion\n\nLarge-scale analysis over a text corpus of dreams does not reveal a whole lot.  I also tried finding interesting collocated phrases, but the results were not good.\n\nI'd like to build a classifier for dreams.  It's clear that some dreams are lighthearted, some are stress-related, some represent fears, and so on.  Categorizing these things will make future analysis easier and more interesting.\n\nWhen I was in school I did research that relied heavily on semantic analysis using [Freebase](http://www.freebase.com).  Doing something similar here could be quite interesting and lend more context to my analysis.\n\n## Is it worth it?\n\nIt seems like dreams reflect my state of mind over a period of time.  This is something that I notice only in retrospect, but it is interesting to go back, see, and remember these things.\n\nFor example, an abortive business venture with a friend showed up in my dreams in ways that I wasn't aware of at the time.  My hopes and dreams, family/friend troubles, etc. also show up.  It's a twisted autobiography.\n\np.s. [KeepDream](http://keepdream.me) has a data export feature that encourages analysis like this.  Eventually I may make this part of the web service, but with only about 40 users it's not a priority.", 
+                        "published_at": 1365973620000, 
+                        "published_by": 1, 
+                        "slug": "an-analysis-of-my-dreams-over-the-past-year", 
+                        "status": "published", 
+                        "title": "An analysis of my dreams over the past year", 
+                        "updated_at": 1365973620000, 
+                        "updated_by": 1, 
+                        "uuid": "96b0c3bf-a9f4-4464-a474-00c2a31c16d3"
+                    }, 
+                    {
+                        "created_at": 1381294980000, 
+                        "created_by": 1, 
+                        "id": 12, 
+                        "language": "en_US", 
+                        "markdown": "\nI started [Asterank](http://asterank.com) in May 2012.  Earlier that week, Planetary Resources [announced](http://www.space.com/15395-asteroid-mining-planetary-resources.html) its intent to mine water and valuable materials from asteroids.  Like many others, I was intrigued.  It was an inspiring, impossible long-term vision.\n\nMy project began as a thought experiment: how much are asteroids really worth?  The media published wild estimates without scientific basis.  No one took a principled approach toward cataloging asteroid content and value.  So, on a weekend afternoon with nothing better to do, I wrote the first version at a cafe in downtown Mountain View.\n\n[{% img center http://i.imgur.com/Lxw7Ffqm.jpg %}](http://asterank.com)\n\n13 months later, when Asterank was acquired by Planetary Resources, it was much more than an asteroid value calculator.  It was a full astronomical toolkit that included web scrapers, a data pipeline, powerful visualizations, and the ability to discover new asteroids.\n\n**I had no idea what I was doing,** but here are things I learned along the way:\n\n<!-- more -->\n\n## Lesson 1: Bug people\n\nRelentlessly contact people who can criticize or help materially.\n\nThe key is being patient and not coming off as desperate.  Follow up every two weeks if you've had near-term contact, one month if you haven't.\n\n### Who to email\n\nCast a wide net.  Contact anyone who can provide expertise, advice, or publicity.  For me, this included:\n\n  * my contact at Planetary Resources.\n  * contacts at many other space companies or organizations.\n  * scientists at research institutions.\n  * scientists at NASA.\n  * space bloggers.\n  * the professor from my 100-person Intro to Astronomy course.\n  * techies that could find my visualizations interesting.\n\n### Cold email guidelines\n\nEmails should always be short and simple:\n\n  * Briefly describe what I made and the success I've already had (visitors, news coverage, etc.).\n  * Tell them what my goal is.\n  * Ask them for something that will help me accomplish this goal.\n\nThis shouldn't be more than 2 or 3 short paragraphs.  Follow-up emails should be even shorter:\n\n  * Update on project - latest successes, features, etc. (skip this if you're following up on a promise they've already made).\n  * Ask them for something.\n\n### Don't get emotional\n\nMost of your emails won't get read.  This can be insulting and stressful.  Hang in there and take nothing personally.\n\n[Boomerang for Gmail](http://www.boomeranggmail.com/) is a great tool for email reminders.  I used the free version and followed up once a month with people I was interested in.\n\n![center http://i.imgur.com/Y7woyuB.png?1](center http://i.imgur.com/Y7woyuB.png?1)\n\nOver time, people started initiating contact instead of the other way around, and my network grew.  Persistent emails were the single largest contributing factor in the success of Asterank.\n\n## Lesson 2: Viral/social content is a boon and a timesink\n\nWhen I launched, the only self-promotion I did was a [Hacker News post](https://news.ycombinator.com/item?id=3967670), which gained a total of 2 points (I deserved this for the awful linkbait title).\n\nFortunately, someone picked it up and Asterank was featured on [Universe Today](http://www.universetoday.com/95169/the-most-profitable-asteroid-is/), a popular space blog.  A couple people including the Planetary Resources leadership contacted me afterwards.  From then on, traffic was steady but with major spikes from social aggregators, news coverage, etc.\n\n{% imgcap center http://i.imgur.com/hfG0gnH.png This brought my site down on Christmas. %}\n\nIf no one notices your project but it is genuinely interesting, just blog about it until they notice.  I posted [Asterank Discover](http://asterank.com/discover) on HN and it got 5 points.  Then I wrote a [blog post](http://www.ianww.com/blog/2013/08/05/how-a-programmer-can-discover-an-asteroid/) about it that made the front page.  Go figure.\n\nThe caveat is that social traffic fades quickly and is mostly people who aren't interested in your actual product.  It helped me get started, but the results were not permanent and the marginal benefit decreases quickly.  Don't get caught up in it.\n\n## Lesson 3: A basic feedback form is essential\n\nSome of my best contacts came through Asterank's About page.  I provided my email address and added a contact form.  I recommend having both (the form is low-friction, but some dislike the indirectness).\n\n{% imgcap center http://i.imgur.com/FTOZyrJm.png A basic form only takes a few minutes to add. %}\n\nI also added a way to \"subscribe to updates,\" but it actually just sent me their email address.  I used this to gauge interest; there was no point in setting up a mailing list before I knew people would use it.\n\nRegardless of how you do it, easy-to-find contact info is essential.  It facilitated several job opportunities, conference invitiations, and media interviews.\n\n## Lesson 4: There might be leads in your analytics\n\nScan your analytics every now and then, especially referers.  I made a valuable contact just by noticing a link from company email.  I reached out without referencing that I was watching the logs, but it's much easier to \"cold\" contact someone you know is already interested.\n\nWhen I sent emails, I sometimes tracked clicks by linking `http://asterank.com/?f=n`, where n is a unique string.  This way, even if they didn't respond, I could tell who was interested enough to click.\n\n\n## Lesson 5: LinkedIn can sometimes be useful\n\nLinkedIn can be frustrating for software engineers, but it's especially important if you're tackling an industry outside tech.  It provided an easy way for the Planetary Resources guys to find me.\n\n{% imgcap center http://i.imgur.com/LtfZbIxm.png The downside is that LinkedIn causes a lot of emails. %}\n\nI know many software engineers who question the value of LinkedIn.  It may cost you some sanity, but maintaining a basic, up-to-date profile was worth it.\n\n## Lesson 6: Open source everything you can\n\nMost people are surprised when I tell them Asterank is almost entirely [open source](https://github.com/typpo/asterank).  It lends an air of transparency and invites collaborators.  The project gains valuable feedback and perspective as a result.\n\nBlogging about technical issues is a good way to get exposure in the open-source community.  Techies are often interested in how specific technologies are used in certain applications.  Asterank capitalized on this, with its visualizations making rounds in the webgl community.  You can get the attention of smart and well-connected people by showcasing interesting technology applications.\n\n## Lesson 7: You need to stick with it\n\nI have 5+ side projects. I'd like to make businesses out of them, but I often lose interest after a couple weeks.  Asterank was the only project that I've stuck with for over a year, and it paid off even though there wasn't a clear path to monetization.\n\n{% imgcap center http://i.imgur.com/PSu18sK.png I should get out more. %}\n\nIt's hard to predict what will be valuable as a side project.  For hobbies, working on what you're most passionate about is the best way to get a return.  Otherwise you lack the discipline to follow through.\n\n## Lesson 8: Be grateful\n\nI've had to make some hard decisions and turn down some great opportunities to wind up here.  I'm really lucky to have options and support from friends, family, and coworkers.\n\nI've accepted a Software Engineer position at Planetary Resources starting in November, and am very excited to learn a lot and see where things takes me.\n\nGood luck!\n\nFollow me: [@iwebst](http://twitter.com/iwebst)", 
+                        "published_at": 1381294980000, 
+                        "published_by": 1, 
+                        "slug": "what-i-learned-from-getting-my-side-project-acquired", 
+                        "status": "published", 
+                        "title": "What I learned from getting my side project acquired", 
+                        "updated_at": 1381294980000, 
+                        "updated_by": 1, 
+                        "uuid": "437c3384-77a8-467a-9184-5766b65ed787"
+                    }, 
+                    {
+                        "created_at": 1385489520000, 
+                        "created_by": 1, 
+                        "id": 13, 
+                        "language": "en_US", 
+                        "markdown": "\nIn late October, someone reviewed the 100,000th image on [Asterank Discover](http://asterank.com/discover), the crowdsourced asteroid discovery app.  This is a significant milestone and I want to give a huge thanks to the thousands of people who've contributed.\n\n![center http://i.imgur.com/TxCp3VQ.png](center http://i.imgur.com/TxCp3VQ.png)\n\n<!-- more -->\n\n## Why this matters\n\nSky surveys have been collecting images of the night sky for decades in order to search for dangerous asteroids, but the resulting data is largely underscrutinized.  Most images have been gathering dust for years, forgotten in archives after being scanned by computers once but never reviewed by human eyes.\n\n{% imgcap center http://i.imgur.com/Ur7PRmum.jpg Chelyabinsk, Russia, February 15, 2013 %}\n\nI've [discussed](http://www.ianww.com/2013/08/05/how-a-programmer-can-discover-an-asteroid/) in the past why human reviewal is an important part of this process.  Our asteroid-hunting algorithms are outdated, and all results must be reviewed by humans anyway due to the prevalence of false positive.  There's also a big false negative problem - I've heard some astronomers estimate that algorithms miss over 50% of asteroids in the imagery they're searching.  A crowdsourced dataset will ultimately lead to better computer detection with fewer false positives.\n\n## Methodology\n\nMy approach in Asterank Discover was straightforward, with the intention of saving harder computation for later.  Display a few control images, then display unknowns and images that we don't have enough data on.  User history is recorded so we can decide how much we can trust the ability of individuals to actually spot asteroids.\n\nNext step: an analysis on hundreds of potential asteroids found to compute and check their orbital solutions.\n\nAlso, everything in Asterank Discover is [open source](http://github.com/typpo/asterank).\n\n## Partnership with Planetary Resources and NASA\n\nNow that we have a successful prototype, Asterank Discover is folding into a larger project called Asteroid Zoo, which belongs to [Planetary Resources](http://www.planetaryresources.com) (PR acquired Asterank in May 2013).\n\nLast week, we [announced](http://www.nbcnews.com/science/nasa-planetary-resources-partner-asteroid-hunting-contests-2D11638181) an agreement with NASA and Zooniverse to crowdsource reviewal of high-quality images from the Catalina Sky Survey.\n\n\"Asteroid Zoo\" will be a much smarter and more engaging app that uses the proven methodology of Zooniverse (they did [Galaxy Zoo](http://www.galaxyzoo.org/), [Ice Hunters](https://www.zooniverse.org/project/icehunters), and other successful crowdsourcing projects).  Asterank Discover was great validation for this approach, and sets us up nicely with some preliminary data to test.\n\n{% imgcap center http://i.imgur.com/yre5eNJm.jpg  A normal sky survey image. %}\n\nI'm very excited to see where this will lead.  This approach will discover new asteroids and improve our model of the solar system.  It also opens opportunities for interesting algorithmic challenges, and the chance for a normal person to discover an asteroid.\n\nAs a programmer, I'm particularly interested in how we'll improve algorithms to spot asteroids.  I am sure that there are conventional ML techniques and even simpler image processing approaches that are not being sufficiently exploited.\n\nOnwards!\n", 
+                        "published_at": 1385489520000, 
+                        "published_by": 1, 
+                        "slug": "asterank-discover-crowdsourced-asteroid-discovery-reviews-its-100-000th-image", 
+                        "status": "published", 
+                        "title": "Asterank Discover, crowdsourced asteroid discovery, reviews its 100,000th image", 
+                        "updated_at": 1385489520000, 
+                        "updated_by": 1, 
+                        "uuid": "f04c50f9-26f1-4a2c-82f6-928cc02bf056"
+                    }, 
+                    {
+                        "created_at": 1375734060000, 
+                        "created_by": 1, 
+                        "id": 14, 
+                        "language": "en_US", 
+                        "markdown": "\nI'm a computer scientist.  I have incredible opportunities to work on fun and interesting problems.\n\nFor some reason, that wasn't always enough.  I've never felt like I had the math, physics, and embedded hardware background to pursue space, one of my biggest interests since I was a kid.  And like any recent grad, I've been soul-searching for what I want to do in the long term.\n\nA year ago, I set aside my doubts and started to innovate in the space industry as a complete outsider.  This post details one of these projects that was reasonably successful.\n\n## Space algorithms\n\nAsteroid detection is a significant challenge for scientists and astronomers.  Thanks to Russian dashcams, we all remember the Chelyabinsk meteor in February 2013 -- space rocks can still take us by surprise and cause significant damage.\n\n![center http://i.imgur.com/MFB4gQA.jpg ](center http://i.imgur.com/MFB4gQA.jpg )\n\nEvery night, large telescopes search the night sky for objects like the Chelyabinsk meteor, taking pictures that are reviewed by computer programs looking for moving dots in the night sky.  If an image seems interesting, it is queued for review by a human operator.\n\nSmall rocks like the one that exploded over Russia are much harder to find via the automated methods used in today's sky surveys.  In fact, it's estimated there are *millions* of undiscovered small asteroids, some of which are hidden in imagery collected over the past few decades.\n\n<!-- more -->\n\n## A human touch\n\nAstronomers I've spoken with tend to agree that automated approaches can miss small, dangerous asteroids.  The varying quality of imagery and the prevalence of false positive streaks, smudges, hot pixels, etc. encourage conservative evaluation.  My own impression is that there is not much in the way of modern, open source asteroid identification.  There's also not enough public data for a machine learning approach.\n\nMy prototype solution to this problem is a web app called **[Asterank Discover](http://asterank.com/discover)**, which aggregates upwards of half a million images of the night sky and presents them in an intelligent manner for crowdsourced review.\n\nUsers are shown short animations of the night sky that make it easy to spot asteroids and are asked to mark items of interest and flag poor quality images.  The app occasionally serves control images to get a sense of whose responses are trustworthy.\n\n[{% img center http://i.imgur.com/6Ajvy2N.png?1 %}](http://asterank.com/discover)\n\nAs an incentive, the first user to spot an undiscovered asteroid will get naming rights (within constraints of IAU naming guidelines).\n\nThe end result?  In about 2 months, **over 35,000 images have been reviewed, with hundreds of potential asteroids marked.**  Not a small a feat for a modest science project by some software engineer.\n\n## The browser is underutilized\n\nI've always been pessimistic about my ability to contribute to space from a pure computer science perspective, but this project was well within reach.  Its success is a testament to creative thought toward applying simple web technologies to new areas.\n\nIt's no surprise that technology in non-tech sectors tends to lag significantly.  This is a HUGE advantage for engineers looking for side projects (or startup ideas).  For example, my work on space has made use of canvas (via the [KineticJS](http://kineticjs.com/) library), webgl (via [three.js](https://github.com/mrdoob/three.js/)), web workers, and other newer web technologies.\n\nSoftware engineers, therefore, are in a unique position.  Unfortunately, most still think of browsers no differently from how they did in 2005.  They're unaware that taking advantage of new browser standards and other emerging tech can significantly transform outside industries.\n\nHere are some newer browser standards I've experimented with over the course of the entire Asterank project (Asterank was about 1 year old when it was acquired by Planetary Resources last May):\n\n#### SVG and Canvas\n\nThese are well known in the tech industry, but probably underused elsewhere.  There are huge data visualizations opportunities out there, which [Asterank](http://asterank.com) capitalized on.\n\n#### Web Workers\n\nJavascript isn't just a way to manipulate the DOM in a single thread.  You can do meaningful work off the main UI thread with the [web workers API](http://ejohn.org/blog/web-workers/), which is supported by most modern browsers.  Traditional approaches limit the performance of many web apps.\n\n#### WebGL/WebCL and GPGPU\n\nI've already [written a bit](http://www.ianww.com/blog/2012/08/05/how-i-built-a-webgl-canvas-visualization-with-no-graphics-knowledge/) about this, but WebGL is a great way to make stunning, performant visualizations that harness the power of graphics hardware.  This unlocks a whole realm of possibility.  Related technologies like [WebCL](http://www.khronos.org/webcl/), once widely adopted, will make it even easier to use the GPU on the web.\n\n#### WebRTC\n\nThe standard is still under development, but [WebRTC](http://www.webrtc.org/) APIs are already available in two major browsers.  WebRTC will unlock an entirely new class of web apps that will change video, file transfer, etc. significantly.\n\n#### There's more...\n\nI haven't mentioned web sockets, localstorage, and so on.  [HTML5 Rocks](http://www.html5rocks.com/en/) is a great resource for this stuff.\n\n## Eat faster\n\nMarc Andreessen says software is [eating the world](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CC8QFjAA&url=http%3A%2F%2Fonline.wsj.com%2Farticle%2FSB10001424053111903480904576512250915629460.html&ei=3zgRUryoM6bUyQHRmYFI&usg=AFQjCNHasgstoxGbs9zhibBMs3PaJfsT3A&sig2=60mgrNjSsDmXFU9FoI-T0Q&bvm=bv.50768961,d.aWc), but its spread beyond Silicon Valley can be slow.  Engineers should actively seek to take advantage of newer technologies that haven't percolated beyond the tech world yet.  As an engineer with no funding and a hobby interest, you can innovate in deep-rooted industries.  I encourage people to think about how new web technologies can solve old problems.\n\nAnd by the way, [Asterank](http://asterank.com) and [Asterank Discover](http://asterank.com/discover) are [open source](https://github.com/typpo/asterank).\n\n{% imgcap center http://i.imgur.com/D8f8Wcr.gif An asteroid in sky survey imagery on Asterank Discover. %}\n", 
+                        "published_at": 1375734060000, 
+                        "published_by": 1, 
+                        "slug": "how-a-programmer-can-discover-an-asteroid", 
+                        "status": "published", 
+                        "title": "How a programmer can discover an asteroid", 
+                        "updated_at": 1375734060000, 
+                        "updated_by": 1, 
+                        "uuid": "90f56830-94ee-478c-8831-d6c3054eea14"
+                    }, 
+                    {
+                        "created_at": 1395103200000, 
+                        "created_by": 1, 
+                        "id": 15, 
+                        "language": "en_US", 
+                        "markdown": "\nimposter syndrome vs humility\n\nfollow your dream vs make money, build your brand, etc\n\ndon't follow your passion vs screw money, become an entrepreneur\n\ndo what you love, but work 70 hr wks\n\n\"follow your dream\" - just provokes feelings of inspiration and guilt", 
+                        "published_at": 1395103200000, 
+                        "published_by": 1, 
+                        "slug": "the-impossible-ideal-software-engineer", 
+                        "status": "draft", 
+                        "title": "The impossible ideal software engineer", 
+                        "updated_at": 1395103200000, 
+                        "updated_by": 1, 
+                        "uuid": "fe0938dd-590b-4897-b0bb-321bdb5435f6"
+                    }, 
+                    {
+                        "created_at": 1388368200000, 
+                        "created_by": 1, 
+                        "id": 16, 
+                        "language": "en_US", 
+                        "markdown": "\nFrontend developers constantly mash ctrl+R or F5 to reload their browser after every single code change.  This is especially exhausting when you're working on mobile web and a refresh requires several taps.  I grew tired of this and developed a soution.\n\n<!-- more -->\n\n## Existing options\n\n[livereload](http://livereload.com) - Costs money.  But it will also compile your sass for you.  Comes with point-and-click interface and browser extensions.  A bit too involved and platform-dependent for what I wanted.\n\n[live.js](http://livejs.com/) - Constantly issues HEAD requests to determine if web resources have changed.  This was no good for me because it pollutes the network debugging log and only works for js and css.  I also want the page to reload when my frontend templates or backend view logic changed.\n\n[nodeJuice](http://nodejuice.com/) - Looks like it may include this functionality, but includes way more than I want.\n\nOther browser and IDE-specific solutions - They're out there, but I wanted a general solution.\n\n## autoreload.js\n\nAutoreload runs either as a standalone script or as middleware if you're running a connect server with node.  You run the script, add a little js to your page, and then you can enjoy automatic refreshes whenever you make edits to your files.\n\nFor example, running the following command will watch 3 directories and a file called settings.py for changes:\n\n{% codeblock lang:sh %}$ autoreload js css templates/main settings.py```\n\nIt gives you a snippet to include in your base HTML template:\n\n{% codeblock lang:html  %}\n<script src=\"http://localhost:60000/autoreload.js\"></script>\n\n<!-- Sometime later ... -->\n\n<script>\nAutoReload.Watch();\n</script>\n\n```\n\nThat's it!  Pretty easy.\n\nInstallation via npm:\n\n{% codeblock lang:sh %}$ npm install -g autoreload```\n\nIt works by long polling an endpoint that updates a timestamp when files change.  Unfortunately it assumes jQuery is available.  That's a TODO item.\n\nCheck it out [on github](http://github.com/typpo/autoreload) for the full README and code (MIT license).", 
+                        "published_at": 1388368200000, 
+                        "published_by": 1, 
+                        "slug": "autoreload-js:-instantly-refresh-the-page-as-you-code", 
+                        "status": "published", 
+                        "title": "autoreload.js: Instantly refresh the page as you code", 
+                        "updated_at": 1388368200000, 
+                        "updated_by": 1, 
+                        "uuid": "425faee9-c1a0-43b1-bf71-0994aeb0dbfc"
+                    }, 
+                    {
+                        "created_at": 1389939600000, 
+                        "created_by": 1, 
+                        "id": 17, 
+                        "language": "en_US", 
+                        "markdown": "", 
+                        "published_at": 1389939600000, 
+                        "published_by": 1, 
+                        "slug": "what-i-learned-from-not-selling-my-side-project", 
+                        "status": "draft", 
+                        "title": "What I learned from not selling my side project", 
+                        "updated_at": 1389939600000, 
+                        "updated_by": 1, 
+                        "uuid": "85558387-8881-408a-8297-fb6366ed10e1"
+                    }, 
+                    {
+                        "created_at": 1397583060000, 
+                        "created_by": 1, 
+                        "id": 18, 
+                        "language": "en_US", 
+                        "markdown": "\n**Update** *April 15, 2014: Mint followed up and made a clear statement that the site has never used a version of OpenSSL vulnerable to Heartbleed.  This is great news.  Hopefully in the future Mint will move quickly and definitively to address security concerns.*\n\n[Mint.com](http://mint.com) is a popular personal finance site used by over 10 million people.  Users enter bank logins and Mint aggregates everything so you can see your financials in one place.\n\nWhen I heard about the [Heartbleed](http://heartbleed.com) vulnerability, I immediately thought of Mint.  They have all my financial logins and sensitive information.  All my bank information is potentially compromised.\n\nUnfortunately, Mint has bungled their response to the Heartbleed and may still be exposing users to attack.\n\n<!-- more -->\n\n## April 9th: Mint confirms vulnerability\n\nHeartbleed became public on April 7th.  Mint made no official statement, but on April 8th someone [asked](https://satisfaction.mint.com/mint/topics/is_mint_com_secured_and_recovered_from_the_heartbleed_bug) on their public support forums whether the site was vulnerable.\n\nTwo days after most of the internet found out about Heartbleed, a Mint representative apologized for the delay and replied:\n\n![center http://i.imgur.com/PQX5PHt.png Mint's official response to Heartbleed.](center http://i.imgur.com/PQX5PHt.png Mint's official response to Heartbleed.)\n\nJami's post, stating that the team was \"**upgrading to protect against the vulnerability**,\" is a strong indication that Mint was vulnerable to Heartbleed.\n\n### Mint's old cert\n\nAfter confirming that the vulnerability was patched, people noticed that Mint is still using an SSL certificate from February.  This means that attackers can pose as Mint and any \"secure\" connection to Mint still cannot be trusted.\n\nAs a result, users continued to complain that Mint is still vulnerable to Heartbleed-related security problems.\n\n## April 10th: Mint is no longer vulnerable?\n\nThe next day, Mint made a reply that puzzled everyone:\n\n![center http://i.imgur.com/Cqufo45.png](center http://i.imgur.com/Cqufo45.png)\n\nMint is \"not affected\" by Heartbleed and we have nothing to worry about.\n\nThis post was extremely unhelpful.  Of course Mint is not affected post-fix.  The question is, was it affected during the 2 years the vulnerability was in the wild?\n\n## Mint's contradictory statements\n\nJami's 2 and 3-sentence responses are all we got from Mint, a financial service with information on over 17 million financial accounts.  Unfortunately, the posts contradict one another and both cannot be true.\n\n### Possibility 1: Mint's first post is true\n\nThe first official response states that engineers are taking action by applying server upgrades to fix the vulnerability.\n\nIn other words, Mint was vulnerable.  But because the site is using an old certificate, **it is still not safe to use Mint.com**.  Over a week after the vulnerability became public, all Mint.com users are at risk.\n\n### Possibility 2: Mint's second post is true\n\nThe second official response states that \"Mint is not affected\" and we have nothing to worry about.\n\nIf we interpret the second post generously and assume Mint was *never* affected, the first official statement is false or at best ambiguous.  What does it means to update servers \"to protect against the vulnerability\" if it was never a problem?\n\nOn the other hand, if the vulnerability existed and was closed, someone at Mint doesn't understand the vulnerability and the need to change SSL certificates.  In other words, one of the world's largest online finance tools is still vulnerable.\n\n## A lesson learned\n\nI need to change my financial passwords regardless.  But it's been over a week and I still can't trust my Mint login.  Even once it's fixed, do I want to use a finance site that does not take security seriously and cannot issue a coherent statement to address one of the largest security holes in history?\n\n{% imgcap center http://i.imgur.com/z2E6wxk.png LastPass agrees - Mint may still be vulnerable %}\n\nPredictably, the remainder of the support thread is people trying to reconcile Mint's responses.  Some assume the worst, some give Mint the benefit of the doubt.  The analysis is completely open to interpretation.\n\n**Mint, your two short replies to the largest security vulnerability ever fundamentally contradict one another.**\n\nA company that handles sensitive financial information needs to communicate security clearly and effectively.  Otherwise, users can't trust the service.  Mint owes its users an official, unambiguous technical statement.", 
+                        "published_at": 1397583060000, 
+                        "published_by": 1, 
+                        "slug": "mint-is-misleading-users-about-heartbleed-and-may-still-be-vulnerable", 
+                        "status": "published", 
+                        "title": "Mint is misleading users about heartbleed (and may still be vulnerable)", 
+                        "updated_at": 1397583060000, 
+                        "updated_by": 1, 
+                        "uuid": "2658e76e-3173-45eb-9c6c-0f193db78dec"
+                    }, 
+                    {
+                        "created_at": 1402695900000, 
+                        "created_by": 1, 
+                        "id": 19, 
+                        "language": "en_US", 
+                        "markdown": "\nCoordinating phone calls can be very unpleasant.  Lots of time is wasted coordinating numbers, waiting for people who aren't on-time, etc.\n\nI made [TalkThen](http://talkthen.com) to solve this problem.  You input", 
+                        "published_at": 1402695900000, 
+                        "published_by": 1, 
+                        "slug": "make-sure-all-your-calls-are-on-time", 
+                        "status": "draft", 
+                        "title": "Make sure all your calls are on time", 
+                        "updated_at": 1402695900000, 
+                        "updated_by": 1, 
+                        "uuid": "616dc8ab-427a-4fef-99f0-fe73f21fa470"
+                    }, 
+                    {
+                        "created_at": 1406063580000, 
+                        "created_by": 1, 
+                        "id": 20, 
+                        "language": "en_US", 
+                        "markdown": "\nGitHub is great, but slightly lacking when it comes to browsing code in a\nproject.  Its code search feature is not well-suited for doing things like\nbrowsing in a file, tracking down references, and finding usage examples within\na repo.\n\nI built Chrome and Firefox extensions to fix this.\n[CodeNav](http://ianww.com/codenav) is an open-source project that adds several\ncode navigation features you'd expect from most IDEs.\n\n## Token highlighting\n\nFinding matching variables or objects can be difficult even with syntax\nhighlighting.  Most existing IDEs highlight similar tokens, making it easy to\nimmediately see variable usage at block or function scope.\n\n![center https://i.imgur.com/X7voZhO.png](center https://i.imgur.com/X7voZhO.png)\n\n<!--more-->\n\nCodeNav [indexes](https://github.com/typpo/codenav/blob/master/src/inject.js#L49) each token defined by GitHub's syntax highlighter, storing the\ncorresponding elements for efficient highlighting.\n\n## Jump to usages\n\nNow that we have highlighting for our objects and variables, we need an easy\nway to navigate them.\n\nMany IDEs use the scrollbar as a virtual indicator of where the highlights are\nin the document.  I wound up with a [percentage-based indicator](https://github.com/typpo/codenav/blob/master/src/inject.js#L154) that\nconveys information fairly accurately:\n\n![center https://i.imgur.com/Jp39728.png?2](center https://i.imgur.com/Jp39728.png?2)\n\nClicking markers will jump to the corresponding variable.\n\nIt was a little tricky to get these right.  Placement varies slightly based on\nOS and browser, but the overall effect is consistent.\n\n## Project-wide search\n\nWe have some good tools for browsing within files, but what about other files?\n\nI decided to use GitHub's built-in code search and integrate it more directly\ninto the code browser.  Now, clicking on a token [will search for it](https://github.com/typpo/codenav/blob/master/src/inject.js#L202) across your\ncurrent project.  Search results are shown in the bottom third of the page:\n\n![center https://i.imgur.com/QsFJAB4.png](center https://i.imgur.com/QsFJAB4.png)\n\nGitHub's code search leaves something to be desired (it only\nreturns one result per file), but overall is very useful.  I think CodeNav\nadds an enormous amount of practical utility to GitHub code search.\n\n## Why you should build a browser extension\n\nBrowser plugins are an entry point for understanding how sites like GitHub run\nunder the hood.  I think extensions are really underutilized as tools to\nenhance user experience and solve common pain points on popular sites.\n\nCodeNav is a start; I can't really use GitHub without it anymore.  But there's\nstill a lot more that can be done.  It doesn't work on diffs/pull requests, and\nI'd like to get multiple search results per file.  And someday I'd like to\nintegrate with [Sourcegraph](http://sourcegraph.com), which is a great service\nthat statically analyzes code.\n\nYou may want to check out [CodeNav](http://ianww.com/codenav), or look at its [source](http://github.com/typpo/codenav), or [follow me](http://twitter.com/iwebst) on Twitter!", 
+                        "published_at": 1406063580000, 
+                        "published_by": 1, 
+                        "slug": "better-code-navigation-on-github", 
+                        "status": "published", 
+                        "title": "Better code navigation on GitHub", 
+                        "updated_at": 1406063580000, 
+                        "updated_by": 1, 
+                        "uuid": "563ec505-9643-4533-a5b9-f330735d0cb8"
+                    }, 
+                    {
+                        "created_at": 1409808600000, 
+                        "created_by": 1, 
+                        "id": 21, 
+                        "language": "en_US", 
+                        "markdown": "\nNot long ago I released [AdDetector](http://ianww.com/ad-detector), a browser plugin that reveals articles with corporate sponsors.\n\nSince its launch, it has received about 15,000 installs and largely positive press from publications like the Wall Street Journal, Engadget, and Lifehacker.\n\nThe plugin now covers over 100 top media and newspaper sites, through a number of great contributions by others.  It also has been improved to recognize more nefarious cases of biased articles, like articles on climate change written by oil companies.\n\nI've also spent some time improving its test suite, which automatically detects if sites make changes that affect the accuracy of its rules.\n\n![center https://i.imgur.com/d3h7x37m.png](center https://i.imgur.com/d3h7x37m.png)\n\nBuilding and launching AdDetector has been a great experience that highlights how much users care about responsible advertising on the web.  The feedback I've received from publishers and journalists seems to universally acknowledge the need for improved transparency in native advertising.\n\nIn multiple cases, publishers actually reached out to request that I add their sites to the plugin.  I was contacted by several people from native advertising companies and was impressed by how understanding they were about the need to update standards for ads.\n\nThe standards surrounding native ads are not well-defined, but it's clear the industry is thinking critically about it, and that is very encouraging.  I think AdDetector has motivated the industry to take a more thoughtful approach toward developing standards for native advertising.", 
+                        "published_at": 1409808600000, 
+                        "published_by": 1, 
+                        "slug": "addetector-since-its-launch", 
+                        "status": "published", 
+                        "title": "AdDetector since its launch", 
+                        "updated_at": 1409808600000, 
+                        "updated_by": 1, 
+                        "uuid": "9f80c1d1-b9a5-433d-8416-d4641fc29b09"
+                    }, 
+                    {
+                        "created_at": 1409085780000, 
+                        "created_by": 1, 
+                        "id": 22, 
+                        "language": "en_US", 
+                        "markdown": "\nA little over a week ago I released [AdDetector](http://ianww.com/ad-detector), a browser plugin that reveals articles with corporate sponsors.\n\nThe response took me by surprise.  AdDetector was in the WSJ, The Verge, Engadget, and a number of other news sites.  I have heard from journalists and readers alike who want to help push back against native advertising anti-patterns.\n\n{% imgcap center http://i.imgur.com/CU4ysmW.png?1 Yahoo News article on climate change...from the Oil and Gas lobby. %}\n\nA handful of people have contributed new rules AdDetector.  The plugin now covers over 60 top media sites, including many top newspapers in the U.S.\n\n<!-- more -->\n\n## Contributions for charity\n\nI believe that AdDetector encourages responsibility in online media and is a valuable service for readers.  As a result, I am committing $2 per pull request from my pocket, $2 from a matching fund.  **$4 will be donated to charity for every pull request adding new rules**.\n\nMy charity of choice is [Watsi](http://watsi.org), which uses 100% of proceeds to fund medical needs in the third world.  In 2 months, I'll update this post with documentation of my donation.\n\n## How to participate\n\nAdd a rule to [rules.js](https://github.com/typpo/ad-detector/blob/master/src/rules.js) on Github.  Don't know how to create a pull request on Github?  [Fork the repo](http://github.com/typpo/ad-detector) and follow this [tutorial](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/).  Feel free to contact me if you need help.\n\nIf you just want to help AdDetector by submitting new sites, use [this form](https://docs.google.com/forms/d/1aTM_hh8HbV5Ho2grReSfHWWfxBvviFkmcJgFAKJG3Yo/viewform?usp=send_form).\n\nRules for submission:\n\n1. **Notablility** - someday it'd be great to have detection rules for every forum and blog on the internet, but let's focus on popular media and publications.\n\n2. **Quality** - please test your pull requests.  Let's minimize false positives and make sure new rules cover all sponsored articles on a given site.\n\nNeed a starting point?  Create rules for any of the sites in this [issue](https://github.com/typpo/ad-detector/issues/12).  Other awesome pull requests count too (like if you want to make a Safari version).\n\nJust in case, I want to cap at $1500 donated total.  I don't expect to receive that many submissions, but would be amazed and delighted if it happened.", 
+                        "published_at": 1409085780000, 
+                        "published_by": 1, 
+                        "slug": "addetector:-4-to-charity-for-every-pull-request", 
+                        "status": "draft", 
+                        "title": "AdDetector: $4 to charity for every pull request", 
+                        "updated_at": 1409085780000, 
+                        "updated_by": 1, 
+                        "uuid": "157ea83c-296b-4fa0-bead-92aae02aa39f"
+                    }, 
+                    {
+                        "created_at": 1419986460000, 
+                        "created_by": 1, 
+                        "id": 23, 
+                        "language": "en_US", 
+                        "markdown": "\nThis has been another great year for projects, old and new.  [Last year's](http://www.ianww.com/blog/2013/12/31/my-year-in-side-projects/) post was well received so I've written up another this year.\n\nHere are my projects worth talking about:\n\n* [TextBelt](http://textbelt.com) - free outgoing sms api\n* [AdDetector](http://ianww.com/ad-detector) - native ad detection\n* [Asterank](http://asterank.com) - space analysis and visualization\n* [Asteroid Viewer](http://ianww.com/asteroid-viewer) - modeling asteroids in 3d\n* [Luna](http://ianww.com/moonviz) - moon mission visualizations\n* [Inflation](http://in2013dollars.com) - quick inflation reference\n* [ListeningPost](http://bunkmates.co) - contextual conversation annotations\n* [CodeNav](http://ianww.com/codenav) - github enhancements for chrome\n\n<!-- more -->\n\n## TextBelt\n\n[TextBelt](http://textbelt.com), my free SMS API, is growing quite a bit.  The site now sends ~30,000 texts per month.  Because the server is [open source](http://github.com/typpo/textbelt), there are additional people running it standalone or as a node module.\n\n{% imgcap center http://i.imgur.com/3StjlWf.png About 30k texts per month. %}\n\nI didn\u2019t work on it much this year, except to respond to requests to add carriers, but received some great contributions.\n\nTextbelt's next steps are hard.  International texting is unreliable and very difficult to debug without owning a phone from each carrier.\n\nThe service also needs better ways to prevent abuse.  Some people send texts nonstop, for the most part getting \u201cquota exceeded.\u201d  These messages, probably spam, inflate the volume of texts sent and jeopardize reliability for regular users.\n\n## AdDetector\n\n[AdDetector](http://ianww.com/ad-detector) is a Chrome and Firefox extension that detects corporate-sponsored articles masquerading as unbiased journalism (a form of native advertising).\n\nIt was written up by the [Wall Street Journal](http://blogs.wsj.com/cmo/2014/08/20/ad-detector-native-ads/), [Lifehacker](http://lifehacker.com/addetector-notifies-you-if-a-story-you-re-reading-is-sp-1640980949), [Engadget](http://www.engadget.com/2014/08/21/browser-plug-in-sponsored-content/), and many others, with over 15,000 installs (and [open sourced](https://github.com/typpo/ad-detector)).\n\n{% imgcap center https://i.imgur.com/ARDaVjTl.png Yahoo Finance article on climate change, paid for by an oil company. %}\n\nInterestingly, I was immediately contacted by a number of marketing execs and journalists of large publications and newspapers.  Several companies specializing in native ads and content generation reached out too.  I've noticed referrals from industry white papers and other inside sources.\n\nI'm no longer working on this project due to potential conflicts with my full-time job.  Despite this, it seems AdDetector influenced publishers' incentives and processes for evaluating deceptive native ads.\n\n## Asterank\n\nAlthough I sold [Asterank](http://asterank.com) to [Planetary Resources](http://planetaryresources.com) last year, it still takes up time outside work.  This project-turned-acquisition has led to many people and opportunities because it garners interest from everyone - media, academics, industry, and those who just like space (it's also mostly [open source](https://github.com/typpo/asterank)).\n\nThis year one of my favorite opportunities was my illustration for David McCandless's latest book, [Knowledge is Beautiful](http://smile.amazon.com/Knowledge-Beautiful-Impossible-Invisible-Connections-Visualized/dp/0062188224?sa-no-redirect=1). He's behind [Information is Beautiful](https://www.facebook.com/informationisbeautiful), the source of many interesting graphics circulating the internet.\n\n{% imgcap center http://i.imgur.com/L0UmQUAm.jpg The closest I'll get to being published. %}\n\nI\u2019ve also been giving talks about Asterank and [open source in space](https://github.com/typpo/asterank), which tend to lead to more people and opportunities.  My talk at a NASA conference on the economics of near-Earth objects formed the basis for a few consulting gigs.\n\n{% imgcap center http://i.imgur.com/u7fjroxm.png Right before I burped and sneezed at the same time. %}\n\nI think I had six other speaking engagements this fall.  Some were small, some large, but all good ways to learn and meet people.\n\nOther really cool stuff has come up too.  For example, I'm working with some scientists and a VR-goggle company to bring Asterank and other 3D space simulations to true 3D virtual reality.\n\n## Asteroid Viewer\n\nWith Asterank out of my hands, I'm pursuing other space-related work.\n\nThis fall I judged a hackathon put on by NASA and the Minor Planet Center at the SETI Institute.  Some of the scientists there study and map asteroids, so I created this [asteroid viewer](http://ianww.com/asteroid-viewer) and polished it up after the hackathon ([source code](https://github.com/typpo/ast3d)).\n\n{% imgcap center http://i.imgur.com/yQaQHiUm.png Many asteroids are shaped like potatoes. %}\n\nSome asteroids are radar-mapped, but most models are derived from light curves as the asteroid passes in front of a star - making this was a great way to learn about the science and math.\n\n## Luna\n\nFor a consulting project I built [this visualization](http://ianww.com/moonviz) of missions to the moon.\n\n![center http://i.imgur.com/xtmqQQAl.png](center http://i.imgur.com/xtmqQQAl.png)\n\nI think I'll be able to add a few more missions to this visualization soon.\n\n## Inflation\n\nThe world\u2019s most boring side project, [an inflation calculator](http://in2013dollars.com), had another surprisingly good year with ~10% month-over-month traffic growth.  It's zero-maintenance except to update CPI data every January.\n\n{% imgcap center http://i.imgur.com/ok3IKvr.png Approaching 40k queries per month. %}\n\nNext year I\u2019d like to make SEO improvements and experiment with AdSense.  I really should switch to a generic domain but am afraid of messing with existing search ranking.\n\n## ListeningPost\n\nAt YC Hacks, a few friends and I built [ListeningPost](http://www.bunkmates.co/), which uses the [Chrome Web Speech API](http://updates.html5rocks.com/2013/01/Voice-Driven-Web-Apps-Introduction-to-the-Web-Speech-API) to extract important things and concepts from spoken conversation, with the goal of providing useful context during meetings.  We were one of the finalists and presented to everyone at the end, which was fun.\n\n{% imgcap center https://imgur.com/nwXZtDel.png The prize was a lifetime supply of Dropbox tshirts. %}\n\nDespite our success as finalists, I think the app is a few years ahead of its time.  Maybe 5 years from now speech recognition will be so good it'll work perfectly out of the box..\n\n## CodeNav\n\n[CodeNav](http://ianww.com/codenav) is a Chrome and Firefox extension that makes browsing code on Github much easier.\n\n![center https://i.imgur.com/QsFJAB4l.png](center https://i.imgur.com/QsFJAB4l.png)\n\nIt took an afternoon to make and there are about 700 people using it.  Unfortunately I can't keep up with all of Github's changes, which break parts of the extension.\n\n## Lessons learned\n\nNothing profound here, just a few notes from my personal experiences:\n\n  * Good things build very slowly, and it's usually the unsexy projects.\n  * Opportunities have a way of appearing when you build lots of stuff, swallow your pride, and put it out there even if it's a work-in-progress.\n  * Giving talks/conferences is great fun but a huge timesink and the value is not always clear.\n  * Beware scope creep when consulting.\n\nAlso want to say thanks to everyone who has supported my work!  With luck, 2015 will be even better than this year.", 
+                        "published_at": 1419986460000, 
+                        "published_by": 1, 
+                        "slug": "this-year-in-side-projects-2014", 
+                        "status": "published", 
+                        "title": "This year in side projects (2014)", 
+                        "updated_at": 1419986460000, 
+                        "updated_by": 1, 
+                        "uuid": "135958fe-10f0-4903-86c4-ed31a7ee8cf8"
+                    }, 
+                    {
+                        "created_at": 1423468800000, 
+                        "created_by": 1, 
+                        "id": 24, 
+                        "language": "en_US", 
+                        "markdown": "\nThe U.S. government is [tracking license plates](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&sqi=2&ved=0CB4QFjAA&url=http%3A%2F%2Fwww.wsj.com%2Farticles%2Fu-s-spies-on-millions-of-cars-1422314779&ei=M2nYVPTECoXcoATgnoH4Cg&usg=AFQjCNEAugi1jX2p0zZSI8CzfsI9hhH4Dg&sig2=aAFy9NrDtG9b5u5Z7QQiJQ) of millions of drivers.\n\nNow I am too.  Here's why.\n\nWhy \"you have nothing to hide\" is not a good excuse for apathy in the face of surveillance.", 
+                        "published_at": 1423468800000, 
+                        "published_by": 1, 
+                        "slug": "a-public-database-of-car-locations-in-real-time", 
+                        "status": "draft", 
+                        "title": "A public database of car locations in real time", 
+                        "updated_at": 1423468800000, 
+                        "updated_by": 1, 
+                        "uuid": "3f9174df-3d13-4da5-ae01-b7ccd7d2a6f3"
+                    }, 
+                    {
+                        "created_at": 1433278080000, 
+                        "created_by": 1, 
+                        "id": 25, 
+                        "language": "en_US", 
+                        "markdown": "\n600 million years ago, multicelluar life was just beginning to form in the oceans.  Land was barren, concentrated in one large landmass.\n\nI found a lot of flat maps and projections that answered my question, but it was hard to conceptualize.  So I put everything on a webgl globe:\n\n[{% imgcap center http://i.imgur.com/hrzNzkEl.jpg Nothing to see here.  Life is stewing in the ocean. %}](http://dinosaurpictures.org/ancient-earth/#600)\n\nEventually, plants evolved and moved onto land as they evolved roots.  Animals followed thereafter (giant insects and vertebrates).\n\n[{% imgcap center http://i.imgur.com/YY5yYfNl.jpg The Devonian period, 400 million years ago. %}](http://dinosaurpictures.org/ancient-earth/#400)\n\nThe age of the dinosaurs began before flowers had even evolved.  By the time dinosaurs went extinct, you could see a lot of similarities between the landmasses of Earth back then and today\u2019s continents.\n\n[{% imgcap center http://i.imgur.com/CQw14HUl.jpg The Late Cretaceous, with the Mediterranean forming and India yet to connect with Asia. %}](http://dinosaurpictures.org/ancient-earth/#65)\n\nOur modern lives are shaped in so many ways by the geography of the past.  Arguments about climate change and ice caps, how oil and other carbon-based fuels are formed, why America\u2019s Great Plains are so rich and fertile - everything is tied to Earth as it used to be.\n\nThanks to webGL and three.js, you can actually play with this [visualization](http://dinosaurpictures.org/ancient-earth) in the browser.\n\nAlso, everything is [open source](https://github.com/typpo/ancient-earth/) on Github.  Take a look and please submit bugs or feature requests by [opening an issue](https://github.com/typpo/ancient-earth/issues/new).\n\nCreating this was surprisingly simple.  3D globes are basically boilerplate with three.js because there are so many demos out there.  I just found the right textures, put them on, and built an interface and a story to go with each time period.  The whole process was very educational and also a lot of fun!\n\n[{% imgcap center http://i.imgur.com/0PhnkPcl.jpg 90 million years ago, most of the Western US was under a shallow sea. %}](http://dinosaurpictures.org/ancient-earth/#90).", 
+                        "published_at": 1433278080000, 
+                        "published_by": 1, 
+                        "slug": "what-did-earth-look-like-600-million-years-ago", 
+                        "status": "published", 
+                        "title": "What did Earth look like 600 million years ago?", 
+                        "updated_at": 1433278080000, 
+                        "updated_by": 1, 
+                        "uuid": "92c6016d-7ed0-4867-ba0e-67214605ee9b"
+                    }, 
+                    {
+                        "created_at": 1425413940000, 
+                        "created_by": 1, 
+                        "id": 26, 
+                        "language": "en_US", 
+                        "markdown": "\nI spent last weekend at LAUNCH with two friends.  Our team, [The Interview Club](http://gointerview.club), won 5 prizes for a total of $13,500 cash (plus t-shirts).  To decompress a little, I want to share the postmortem and some tips that made the hack successful.\n\n![center http://i.imgur.com/5ikqAhgl.jpg](center http://i.imgur.com/5ikqAhgl.jpg)\n\n<!-- more -->\n\n## The idea\n\n[LAUNCH](http://launchhackathon.com) is one of the biggest hackathons in the world.  We planned to attend for a while, but found ourselves driving up to SF last Friday without a solid idea.\n\nLast week someone offered me a few hundred dollars to interview a candidate.  This isn't uncommon - every couple weeks I do a technical interview as a favor to a friend.\n\nAll three of us used to work at a small company, where we\u2019d spend hours each week interviewing candidates.  Usually interviews were a huge waste of time because screening by resume is very flawed.\n\n**What if there was a marketplace where companies could have top engineers interview their candidates?**  With a couple ideas floating around, we decided as we were driving that if we passed SFO and didn\u2019t think of anything better, we\u2019d go for it.\n\n[{% img center http://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/223/773/datas/xlarge.png %}](http://gointerview.club)\n\n## Code Hacking\n\n[The Interview Club](http://gointerview.club) was straightforward to build.  Here are things that worked that others can use to improve their chances of hackathon success:\n\n  * **Avoid backend work** - [Parse](http://parse.com) is a great tool for quick prototyping.  The goal is to make the app work, but minimize the amount of time building things that people don\u2019t actually see.\n  * **Pretty landing page** - I\u2019m terrible at design, so I got a head start with a professional looking template.  The landing page is important because it's a first impression, and impressions are limited at a hackathon.  I based my design off one from [html5up.net](http://html5up.net).\n  * **Division of labor** - This is important.  I handled random stuff like the frontend design, domain setup, emailing, special cases like the node server we had to run when Parse wouldn\u2019t cut it.  Andy handled most 3rd party integrations.  Julius handled the details and polish of our expert-company-candidate interactions.\n  * **Less is more** - I\u2019m a strong believer in diminishing returns and I don\u2019t think working through the night is an effective way to win a hackathon.  Best to stay clear-minded and healthy.\n\n## \u201cGrowth Hacking\u201d\n\nI knew our idea had legs but it wasn't flashy or cool, so the only way to make it stand out was to get real people committed.  This would solve the chicken-and-egg problem of our two-sided marketplace.\n\n  * **Users at all costs** - for an idea like this, you need people to prove it.\n  * **Post on social media** - the appropriate subreddits, Hacker News (where the thread died without much notice), and even Google+.\n  * **Ads** - A Facebook ad was a few dollars and led to a couple clicks.\n  * **Hackathon Hackers** - this Facebook group is a great community of people who are super supportive of hacks.  Their support was incredibly helpful.\n\n**In less than 24 hours, we received over 100 signups.**  100+ engineers who want to interview for me, 5-10 companies that want to interview technical candidates but don\u2019t have the in-house resources to do so.\n\nEarly traction was a huge boost for us.  The fact that we had already solved our two-sided marketplace problem and proved the market played an important role in our success.\n\n## Pitch early\n\nI started pitching on Friday to some of the sponsors.  You don\u2019t have to make a big deal about \u201cpitching,\u201d just casually explain your idea to people.  It didn\u2019t seem too helpful at first (most people will just nod and say something polite), but it will pay off in a big way when people give feedback.\n\nFor me, what helped crystallize the vision was a comment from a CEO who pointed out that I should really target companies between 1 and 30 people (my initial pitch targeted one-off MBA types who needed tech talent).  Small companies just don\u2019t have the time and technical resources to effectively screen the top of their funnel, and that\u2019s why this idea was so powerful.\n\n{% imgcap center http://i.imgur.com/pZZV7ANl.jpg One of the prizes. %}\n\n## Next Steps\n\nIt\u2019s actually not over - we\u2019re presenting at the LAUNCH festival tomorrow, competing with the top 5 teams for the grand prize of a $100k investment.\n\nFinally, special shout out to the LAUNCH and ChallengePost people who put this together.  We had an awesome time and you were incredibly helpful.\n\nIn the meantime, we\u2019re still improving [Interview Club](http://gointerview.club)...\n\n**Engineers** - companies have signed up to pay $100+ per technical interview.\n\n**Companies** - we have over 100 talented engineers - many of them at top-tier companies - who would like to help you hire talent.\n\n**[Check it out](http://gointerview.club)**!", 
+                        "published_at": 1425413940000, 
+                        "published_by": 1, 
+                        "slug": "things-i-learned-from-the-launch-hackathon", 
+                        "status": "published", 
+                        "title": "Things I learned from the LAUNCH hackathon", 
+                        "updated_at": 1425413940000, 
+                        "updated_by": 1, 
+                        "uuid": "a2a3f88b-6eb4-4896-b92b-8ada05b4a94c"
+                    }, 
+                    {
+                        "created_at": 1360023600000, 
+                        "created_by": 1, 
+                        "id": 27, 
+                        "language": "en_US", 
+                        "markdown": "\nLast weekend a couple friends and I released [Verified Facts](http://www.verifiedfacts.org), a conspiracy theory generator.  It produces occasionally hilarious, rambling conspiracy theories that are designed to read similarly to actual conspiracy theories.\n\n[{% img center http://i.imgur.com/YvMm1uU.png %}](http://www.verifiedfacts.org)\n\nWe generated over 100,000 conspiraces in 24 hours.  This post describes the process for how they are generated and areas of improvement.\n\n<!-- more -->\n\n## What's in a conspiracy theory?\n\nA stereotypical conspiracy theory is a set of claims backed up by skewed presentation or outright fabrication of facts.\n\nIn our casual browsing, we found that many \"crazy\" theories were presented as a series of arguments based on ideas that seem ridiculous to most readers but are regarded as perfectly reasonable by the author.  Because of this gap in understanding, conspiracy theories often read as a collection of emotional non-sequiturs, tinged by paranoia, that seem coherent at first glance.\n\n![center http://i.imgur.com/Zx3oify.png](center http://i.imgur.com/Zx3oify.png)\n\nConspiracies tend to also avoid naming things, gesturing vaguely or alluding to nameless authorities.  In lieu of real evidence, they often offer evidence bizzarely lacking in context, especially in the form of inscrutable images.\n\n![center http://i.imgur.com/aH0ydrj.png](center http://i.imgur.com/aH0ydrj.png)\n\nThis approach lends itself to automated generation.\n\n## Building a conspiracy\n\nTo the disappointment of techies everywhere, we took a more manual approach to creating conspiracies.  We have close to 1,000 independent clauses that contain templated variables and can be strung together arbitrarily.  These variables are replaced by upwards of 300 different nouns, which are classified by what type of noun they are (\"malady, \"government organization,\" and so on) and slotted into appropriate spots.\n\nThere are also some variables that depend on the previous variable.  These tend to change depending on the quantity of the previous variable (eg. \"has/have,\" \"is/are,\" etc.).\n\nFinally, we allow writers to label variables to repeat them when necessary or ensure that they are unique (eg. \"country1 and country2 are at war\").\n\nSentences constructed with these variables are broken into categories based on the meaning they are intended to convey.  We have introductions, evidence, filler, and conclusions.\n\n![center http://i.imgur.com/83VS00w.png](center http://i.imgur.com/83VS00w.png)\n\nIn other words, it's fancy mad libs.  But with the amount of content we have, we almost always generate a unique conspiracy.\n\n## Conspiracy flow\n\nConspiracies don't make sense, but they have some semblance of coherence.  So I established some rules that dictate how subjects are passed from sentence to sentence.\n\nWhenever possible, we try to re-use the same subjects when a template requires a noun from a given category.  We also try to prefer sentence templates that contain noun categories we've already used, and we prefer repetition of certain categories over others.\n\nThis cuts down on the non sequiturs, to a degree, but it also reduces the amount of randomness, and makes it possible for careless writers to lock out content or create content that is unreachable.\n\n![center http://i.imgur.com/oiNtjYK.png](center http://i.imgur.com/oiNtjYK.png)\n\n## Getting fancy\n\nIf I wanted to take this project further, I would use a formal context free grammar, which would allow us to have randomness at a higher level of granularity, down to individual verbs and relationships.  Right now we have a simpler templating system that is more or less equivalent to a dumb CFG and is pretty easy for anyone to understand and edit.\n\nOr maybe we could have come up with a markov chain that spat out something resembling a conspiracy theory, and the joke would be that we used conspiracies to generate more conspiracies.\n\nWhen considering options, I took Scott Pakin's [complaint generator](http://www.pakin.org/complaint/) as an example of a well-known random prose generator.  It appears his complaints are mostly built from an extensive library of classified independent clauses.  On the other hand, there is [scigen](http://pdos.csail.mit.edu/scigen/), which is done with a CFG.  (*edit: I stand corrected - Scott has told me that his generator is also a CFG.*).\n\nIn any case, we liked the basic approach, and because we were mostly non-programmers we took the easy route for this weekend project.\n\n## Conclusion\n\nYou can check out [Verified Facts](http://www.verifiedfacts.org) yourself and see if it comes up with anything good.  Also check out [Laura Michet's post](http://blog.lauramichet.com/2013/02/03/verified-facts/), which covers the writing process in more detail.\n\nWe've generated some great conspiracies, but it's hard to beat the real thing:\n\n<iframe width=\"420\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/_c6HsiixFS8?rel=0\" frameborder=\"0\" allowfullscreen></iframe>", 
+                        "published_at": 1360023600000, 
+                        "published_by": 1, 
+                        "slug": "how-to-generate-a-conspiracy-theory", 
+                        "status": "published", 
+                        "title": "How to generate a conspiracy theory", 
+                        "updated_at": 1360023600000, 
+                        "updated_by": 1, 
+                        "uuid": "11f31bb8-a92f-4c66-b349-22a136a43ad7"
+                    }
+                ], 
+                "posts_tags": [
+                    {
+                        "id": 1, 
+                        "post_id": 1, 
+                        "tag_id": 1
+                    }, 
+                    {
+                        "id": 2, 
+                        "post_id": 1, 
+                        "tag_id": 2
+                    }, 
+                    {
+                        "id": 3, 
+                        "post_id": 1, 
+                        "tag_id": 3
+                    }, 
+                    {
+                        "id": 4, 
+                        "post_id": 1, 
+                        "tag_id": 4
+                    }, 
+                    {
+                        "id": 5, 
+                        "post_id": 2, 
+                        "tag_id": 5
+                    }, 
+                    {
+                        "id": 6, 
+                        "post_id": 2, 
+                        "tag_id": 6
+                    }, 
+                    {
+                        "id": 7, 
+                        "post_id": 2, 
+                        "tag_id": 7
+                    }, 
+                    {
+                        "id": 8, 
+                        "post_id": 2, 
+                        "tag_id": 8
+                    }, 
+                    {
+                        "id": 9, 
+                        "post_id": 2, 
+                        "tag_id": 9
+                    }, 
+                    {
+                        "id": 10, 
+                        "post_id": 3, 
+                        "tag_id": 5
+                    }, 
+                    {
+                        "id": 11, 
+                        "post_id": 3, 
+                        "tag_id": 2
+                    }, 
+                    {
+                        "id": 12, 
+                        "post_id": 3, 
+                        "tag_id": 6
+                    }, 
+                    {
+                        "id": 13, 
+                        "post_id": 3, 
+                        "tag_id": 7
+                    }, 
+                    {
+                        "id": 14, 
+                        "post_id": 3, 
+                        "tag_id": 10
+                    }, 
+                    {
+                        "id": 15, 
+                        "post_id": 4, 
+                        "tag_id": 11
+                    }, 
+                    {
+                        "id": 16, 
+                        "post_id": 4, 
+                        "tag_id": 12
+                    }, 
+                    {
+                        "id": 17, 
+                        "post_id": 5, 
+                        "tag_id": 13
+                    }, 
+                    {
+                        "id": 18, 
+                        "post_id": 5, 
+                        "tag_id": 14
+                    }, 
+                    {
+                        "id": 19, 
+                        "post_id": 5, 
+                        "tag_id": 15
+                    }, 
+                    {
+                        "id": 20, 
+                        "post_id": 5, 
+                        "tag_id": 16
+                    }, 
+                    {
+                        "id": 21, 
+                        "post_id": 5, 
+                        "tag_id": 17
+                    }, 
+                    {
+                        "id": 22, 
+                        "post_id": 6, 
+                        "tag_id": 1
+                    }, 
+                    {
+                        "id": 23, 
+                        "post_id": 6, 
+                        "tag_id": 18
+                    }, 
+                    {
+                        "id": 24, 
+                        "post_id": 7, 
+                        "tag_id": 19
+                    }, 
+                    {
+                        "id": 25, 
+                        "post_id": 8, 
+                        "tag_id": 13
+                    }, 
+                    {
+                        "id": 26, 
+                        "post_id": 8, 
+                        "tag_id": 20
+                    }, 
+                    {
+                        "id": 27, 
+                        "post_id": 8, 
+                        "tag_id": 17
+                    }, 
+                    {
+                        "id": 28, 
+                        "post_id": 9, 
+                        "tag_id": 21
+                    }, 
+                    {
+                        "id": 29, 
+                        "post_id": 9, 
+                        "tag_id": 22
+                    }, 
+                    {
+                        "id": 30, 
+                        "post_id": 10, 
+                        "tag_id": 23
+                    }, 
+                    {
+                        "id": 31, 
+                        "post_id": 10, 
+                        "tag_id": 24
+                    }, 
+                    {
+                        "id": 32, 
+                        "post_id": 11, 
+                        "tag_id": 25
+                    }, 
+                    {
+                        "id": 33, 
+                        "post_id": 12, 
+                        "tag_id": 13
+                    }, 
+                    {
+                        "id": 34, 
+                        "post_id": 12, 
+                        "tag_id": 26
+                    }, 
+                    {
+                        "id": 35, 
+                        "post_id": 13, 
+                        "tag_id": 13
+                    }, 
+                    {
+                        "id": 36, 
+                        "post_id": 13, 
+                        "tag_id": 27
+                    }, 
+                    {
+                        "id": 37, 
+                        "post_id": 14, 
+                        "tag_id": 28
+                    }, 
+                    {
+                        "id": 38, 
+                        "post_id": 14, 
+                        "tag_id": 29
+                    }, 
+                    {
+                        "id": 39, 
+                        "post_id": 16, 
+                        "tag_id": 30
+                    }, 
+                    {
+                        "id": 40, 
+                        "post_id": 20, 
+                        "tag_id": 31
+                    }, 
+                    {
+                        "id": 41, 
+                        "post_id": 20, 
+                        "tag_id": 32
+                    }, 
+                    {
+                        "id": 42, 
+                        "post_id": 21, 
+                        "tag_id": 33
+                    }, 
+                    {
+                        "id": 43, 
+                        "post_id": 22, 
+                        "tag_id": 33
+                    }, 
+                    {
+                        "id": 44, 
+                        "post_id": 23, 
+                        "tag_id": 19
+                    }, 
+                    {
+                        "id": 45, 
+                        "post_id": 25, 
+                        "tag_id": 23
+                    }, 
+                    {
+                        "id": 46, 
+                        "post_id": 25, 
+                        "tag_id": 34
+                    }, 
+                    {
+                        "id": 47, 
+                        "post_id": 25, 
+                        "tag_id": 35
+                    }, 
+                    {
+                        "id": 48, 
+                        "post_id": 26, 
+                        "tag_id": 36
+                    }, 
+                    {
+                        "id": 49, 
+                        "post_id": 26, 
+                        "tag_id": 37
+                    }, 
+                    {
+                        "id": 50, 
+                        "post_id": 26, 
+                        "tag_id": 38
+                    }, 
+                    {
+                        "id": 51, 
+                        "post_id": 27, 
+                        "tag_id": 39
+                    }, 
+                    {
+                        "id": 52, 
+                        "post_id": 27, 
+                        "tag_id": 40
+                    }
+                ], 
+                "roles": [
+                    {
+                        "created_at": 1435777686191, 
+                        "created_by": 1, 
+                        "description": "Administrators", 
+                        "id": 1, 
+                        "name": "Administrator", 
+                        "updated_at": 1435777686191, 
+                        "updated_by": 1, 
+                        "uuid": "f12568fa-ac03-462d-b356-2308d77f22c5"
+                    }, 
+                    {
+                        "created_at": 1435777686192, 
+                        "created_by": 1, 
+                        "description": "Editors", 
+                        "id": 2, 
+                        "name": "Editor", 
+                        "updated_at": 1435777686192, 
+                        "updated_by": 1, 
+                        "uuid": "557490c1-14b3-4a8f-88bd-33773289f372"
+                    }, 
+                    {
+                        "created_at": 1435777686192, 
+                        "created_by": 1, 
+                        "description": "Authors", 
+                        "id": 3, 
+                        "name": "Author", 
+                        "updated_at": 1435777686192, 
+                        "updated_by": 1, 
+                        "uuid": "3e3477c2-d25a-46c8-a9a9-9667cc334fb4"
+                    }, 
+                    {
+                        "created_at": 1435777686193, 
+                        "created_by": 1, 
+                        "description": "Blog Owner", 
+                        "id": 4, 
+                        "name": "Owner", 
+                        "updated_at": 1435777686193, 
+                        "updated_by": 1, 
+                        "uuid": "9f02d5ef-6f60-4c1d-b647-27c57267e1de"
+                    }
+                ], 
+                "roles_users": [
+                    {
+                        "id": 1, 
+                        "role_id": 4, 
+                        "user_id": 1
+                    }
+                ], 
+                "settings": [
+                    {
+                        "created_at": 1435777687158, 
+                        "created_by": 1, 
+                        "id": 1, 
+                        "key": "databaseVersion", 
+                        "type": "core", 
+                        "updated_at": 1435777687158, 
+                        "updated_by": 1, 
+                        "uuid": "d7ba3d7b-563d-4eb4-b729-ccb482b83398", 
+                        "value": "003"
+                    }, 
+                    {
+                        "created_at": 1435777687166, 
+                        "created_by": 1, 
+                        "id": 2, 
+                        "key": "dbHash", 
+                        "type": "core", 
+                        "updated_at": 1435777687269, 
+                        "updated_by": 1, 
+                        "uuid": "04d173be-d306-49d1-998e-376475da4622", 
+                        "value": "0ee32251-2b72-45cd-83fb-a4433c7d4fbd"
+                    }, 
+                    {
+                        "created_at": 1435777687166, 
+                        "created_by": 1, 
+                        "id": 3, 
+                        "key": "nextUpdateCheck", 
+                        "type": "core", 
+                        "updated_at": 1435777872342, 
+                        "updated_by": 1, 
+                        "uuid": "157228a6-8929-4f84-a5fd-9a866adcdf25", 
+                        "value": "1435864272"
+                    }, 
+                    {
+                        "created_at": 1435777687166, 
+                        "created_by": 1, 
+                        "id": 4, 
+                        "key": "displayUpdateNotification", 
+                        "type": "core", 
+                        "updated_at": 1435777872345, 
+                        "updated_by": 1, 
+                        "uuid": "402a70b7-7b2c-4310-97f2-103221ad6513", 
+                        "value": "0.5.0"
+                    }, 
+                    {
+                        "created_at": 1435777687167, 
+                        "created_by": 1, 
+                        "id": 5, 
+                        "key": "title", 
+                        "type": "blog", 
+                        "updated_at": 1435777885589, 
+                        "updated_by": 1, 
+                        "uuid": "12af0411-2574-41ab-897a-397050c38f5c", 
+                        "value": "Ian Webster's blog"
+                    }, 
+                    {
+                        "created_at": 1435777687167, 
+                        "created_by": 1, 
+                        "id": 6, 
+                        "key": "description", 
+                        "type": "blog", 
+                        "updated_at": 1435777885590, 
+                        "updated_by": 1, 
+                        "uuid": "8d7cf064-cdcb-4e85-b1d1-9dd650aa746b", 
+                        "value": "Thoughts, stories and ideas."
+                    }, 
+                    {
+                        "created_at": 1435777687168, 
+                        "created_by": 1, 
+                        "id": 7, 
+                        "key": "email", 
+                        "type": "blog", 
+                        "updated_at": 1435777885586, 
+                        "updated_by": 1, 
+                        "uuid": "c148b973-21e3-48d0-88e9-5a69d9b60882", 
+                        "value": "ianw_blog@ianww.com"
+                    }, 
+                    {
+                        "created_at": 1435777687168, 
+                        "created_by": 1, 
+                        "id": 8, 
+                        "key": "logo", 
+                        "type": "blog", 
+                        "updated_at": 1435777687168, 
+                        "updated_by": 1, 
+                        "uuid": "acca9720-cb6b-4e76-bdf4-e923f9af2c6d", 
+                        "value": ""
+                    }, 
+                    {
+                        "created_at": 1435777687168, 
+                        "created_by": 1, 
+                        "id": 9, 
+                        "key": "cover", 
+                        "type": "blog", 
+                        "updated_at": 1435777687168, 
+                        "updated_by": 1, 
+                        "uuid": "d7bea1f0-3e11-4f38-af82-be2f36275826", 
+                        "value": ""
+                    }, 
+                    {
+                        "created_at": 1435777687168, 
+                        "created_by": 1, 
+                        "id": 10, 
+                        "key": "defaultLang", 
+                        "type": "blog", 
+                        "updated_at": 1435777687168, 
+                        "updated_by": 1, 
+                        "uuid": "6176d602-1b7c-47c5-8e62-f02df5a52335", 
+                        "value": "en_US"
+                    }, 
+                    {
+                        "created_at": 1435777687169, 
+                        "created_by": 1, 
+                        "id": 11, 
+                        "key": "postsPerPage", 
+                        "type": "blog", 
+                        "updated_at": 1435777687169, 
+                        "updated_by": 1, 
+                        "uuid": "b3f42a67-ee86-42c7-8d5d-abc8be725882", 
+                        "value": "5"
+                    }, 
+                    {
+                        "created_at": 1435777687169, 
+                        "created_by": 1, 
+                        "id": 12, 
+                        "key": "forceI18n", 
+                        "type": "blog", 
+                        "updated_at": 1435777687169, 
+                        "updated_by": 1, 
+                        "uuid": "9980a177-7b4f-4850-8909-80e0612421d5", 
+                        "value": "true"
+                    }, 
+                    {
+                        "created_at": 1435777687169, 
+                        "created_by": 1, 
+                        "id": 13, 
+                        "key": "permalinks", 
+                        "type": "blog", 
+                        "updated_at": 1435777687169, 
+                        "updated_by": 1, 
+                        "uuid": "4e415bd8-9da1-4e83-b086-4dfd001b5284", 
+                        "value": "/:slug/"
+                    }, 
+                    {
+                        "created_at": 1435777687169, 
+                        "created_by": 1, 
+                        "id": 14, 
+                        "key": "ghost_head", 
+                        "type": "blog", 
+                        "updated_at": 1435777687169, 
+                        "updated_by": 1, 
+                        "uuid": "f002794e-e0cb-4d0c-88a0-d141afe642e6", 
+                        "value": ""
+                    }, 
+                    {
+                        "created_at": 1435777687169, 
+                        "created_by": 1, 
+                        "id": 15, 
+                        "key": "ghost_foot", 
+                        "type": "blog", 
+                        "updated_at": 1435777687169, 
+                        "updated_by": 1, 
+                        "uuid": "3b0434f1-1fe6-47e5-a801-cebd7815c485", 
+                        "value": ""
+                    }, 
+                    {
+                        "created_at": 1435777687169, 
+                        "created_by": 1, 
+                        "id": 16, 
+                        "key": "labs", 
+                        "type": "blog", 
+                        "updated_at": 1435777687169, 
+                        "updated_by": 1, 
+                        "uuid": "1df3981f-507f-4a81-a5d4-f2009873dbb5", 
+                        "value": "{}"
+                    }, 
+                    {
+                        "created_at": 1435777687170, 
+                        "created_by": 1, 
+                        "id": 17, 
+                        "key": "navigation", 
+                        "type": "blog", 
+                        "updated_at": 1435777687170, 
+                        "updated_by": 1, 
+                        "uuid": "32bd56a8-9c56-4f90-9054-b7461116ddf7", 
+                        "value": "[{\"label\":\"Home\", \"url\":\"/\"}]"
+                    }, 
+                    {
+                        "created_at": 1435777687170, 
+                        "created_by": 1, 
+                        "id": 18, 
+                        "key": "isPrivate", 
+                        "type": "blog", 
+                        "updated_at": 1435777687170, 
+                        "updated_by": 1, 
+                        "uuid": "ebb0dce8-d58c-47ee-84db-e9082136add6", 
+                        "value": "false"
+                    }, 
+                    {
+                        "created_at": 1435777687170, 
+                        "created_by": 1, 
+                        "id": 19, 
+                        "key": "password", 
+                        "type": "blog", 
+                        "updated_at": 1435777687170, 
+                        "updated_by": 1, 
+                        "uuid": "1edb2218-254a-44c3-8874-2ee7db4f50b3", 
+                        "value": ""
+                    }, 
+                    {
+                        "created_at": 1435777687170, 
+                        "created_by": 1, 
+                        "id": 20, 
+                        "key": "activeApps", 
+                        "type": "app", 
+                        "updated_at": 1435777687170, 
+                        "updated_by": 1, 
+                        "uuid": "8dc79540-c678-474c-8799-8a22a62246ad", 
+                        "value": "[]"
+                    }, 
+                    {
+                        "created_at": 1435777687170, 
+                        "created_by": 1, 
+                        "id": 21, 
+                        "key": "installedApps", 
+                        "type": "app", 
+                        "updated_at": 1435777863058, 
+                        "updated_by": 1, 
+                        "uuid": "a024b4e8-6021-4464-8905-76729f973b54", 
+                        "value": "[]"
+                    }, 
+                    {
+                        "created_at": 1435777687170, 
+                        "created_by": 1, 
+                        "id": 22, 
+                        "key": "activeTheme", 
+                        "type": "theme", 
+                        "updated_at": 1435777687170, 
+                        "updated_by": 1, 
+                        "uuid": "cdd6c9f9-559f-4ab2-8823-5f1e435c67dd", 
+                        "value": "casper"
+                    }
+                ], 
+                "tags": [
+                    {
+                        "id": 1, 
+                        "name": "webgl", 
+                        "slug": "webgl", 
+                        "uuid": "175a495f-5938-4f88-8266-b99786185cc4"
+                    }, 
+                    {
+                        "id": 2, 
+                        "name": "three.js", 
+                        "slug": "three-js", 
+                        "uuid": "e7bada52-9114-418d-bf7d-eb24fa66beb8"
+                    }, 
+                    {
+                        "id": 3, 
+                        "name": "javascript", 
+                        "slug": "javascript", 
+                        "uuid": "5b3c069f-ffab-480d-a952-a11a70615682"
+                    }, 
+                    {
+                        "id": 4, 
+                        "name": "glsl", 
+                        "slug": "glsl", 
+                        "uuid": "49b081d0-1cb1-42f6-996c-b99097bc81f2"
+                    }, 
+                    {
+                        "id": 5, 
+                        "name": "javascript", 
+                        "slug": "javascript", 
+                        "uuid": "41c7a362-dc6b-4830-bd4d-4c112c892091"
+                    }, 
+                    {
+                        "id": 6, 
+                        "name": "webgl", 
+                        "slug": "webgl", 
+                        "uuid": "4f2648e0-4707-49b1-8891-f4a2ccb322e5"
+                    }, 
+                    {
+                        "id": 7, 
+                        "name": "html5", 
+                        "slug": "html5", 
+                        "uuid": "2622227c-30bd-4a81-bd43-7e5ffce2cd17"
+                    }, 
+                    {
+                        "id": 8, 
+                        "name": "canvas", 
+                        "slug": "canvas", 
+                        "uuid": "07123b26-7027-4ff7-ae5a-1fe024d6a01b"
+                    }, 
+                    {
+                        "id": 9, 
+                        "name": "3d", 
+                        "slug": "3d", 
+                        "uuid": "96bbbb8b-fb56-4881-9745-fa7b8458fa4f"
+                    }, 
+                    {
+                        "id": 10, 
+                        "name": "webworkers", 
+                        "slug": "webworkers", 
+                        "uuid": "09e17587-06ca-41f8-94dc-f4aaea246d2f"
+                    }, 
+                    {
+                        "id": 11, 
+                        "name": "post-mortem", 
+                        "slug": "post-mortem", 
+                        "uuid": "1772b7d2-e63d-4f04-a5c1-96a750e2ed0c"
+                    }, 
+                    {
+                        "id": 12, 
+                        "name": "asterank", 
+                        "slug": "asterank", 
+                        "uuid": "c768a029-0aea-49a5-8229-e586f3550fc9"
+                    }, 
+                    {
+                        "id": 13, 
+                        "name": "asterank", 
+                        "slug": "asterank", 
+                        "uuid": "6bb7d35c-1266-4ad8-ab3d-a57039fffc8e"
+                    }, 
+                    {
+                        "id": 14, 
+                        "name": "asteroids", 
+                        "slug": "asteroids", 
+                        "uuid": "aa27583b-7063-4f95-85b5-d68d8818eeb6"
+                    }, 
+                    {
+                        "id": 15, 
+                        "name": "2012", 
+                        "slug": "2012", 
+                        "uuid": "fc373b37-2580-4a52-8e91-2ab485585bb4"
+                    }, 
+                    {
+                        "id": 16, 
+                        "name": "DA14", 
+                        "slug": "da14", 
+                        "uuid": "6ec23fc9-37eb-48c3-9f9b-920350576683"
+                    }, 
+                    {
+                        "id": 17, 
+                        "name": "visualization", 
+                        "slug": "visualization", 
+                        "uuid": "d644466e-de63-4bfc-8e34-e9754503ebe6"
+                    }, 
+                    {
+                        "id": 18, 
+                        "name": "ANGLE", 
+                        "slug": "angle", 
+                        "uuid": "e8fdad62-254a-4e47-8813-e8d9743b2645"
+                    }, 
+                    {
+                        "id": 19, 
+                        "name": "retrospectives", 
+                        "slug": "retrospectives", 
+                        "uuid": "8011d28b-ed82-4cee-bd54-a8fe2a1d9c9a"
+                    }, 
+                    {
+                        "id": 20, 
+                        "name": "exoplanets", 
+                        "slug": "exoplanets", 
+                        "uuid": "a61c6f48-7dc8-4a2b-b7a3-4de5ab78940b"
+                    }, 
+                    {
+                        "id": 21, 
+                        "name": "threejs", 
+                        "slug": "threejs", 
+                        "uuid": "de424668-c509-47c5-a7bb-84a989a74dc0"
+                    }, 
+                    {
+                        "id": 22, 
+                        "name": "webgl", 
+                        "slug": "webgl", 
+                        "uuid": "a3209d22-103b-4546-918d-945247af4a56"
+                    }, 
+                    {
+                        "id": 23, 
+                        "name": "visualization", 
+                        "slug": "visualization", 
+                        "uuid": "036769c0-0c42-4ce6-b52f-5896f30421ba"
+                    }, 
+                    {
+                        "id": 24, 
+                        "name": "galaxies", 
+                        "slug": "galaxies", 
+                        "uuid": "c1972566-5dd3-4ba2-879e-82904f04406e"
+                    }, 
+                    {
+                        "id": 25, 
+                        "name": "keepdream", 
+                        "slug": "keepdream", 
+                        "uuid": "c8b67d95-648b-4a8e-8100-76934be0e06f"
+                    }, 
+                    {
+                        "id": 26, 
+                        "name": "retrospectives", 
+                        "slug": "retrospectives", 
+                        "uuid": "f6736a2c-8851-41da-a4a1-71a78ee09890"
+                    }, 
+                    {
+                        "id": 27, 
+                        "name": "space", 
+                        "slug": "space", 
+                        "uuid": "68c0b069-0b2c-499e-865c-34295804b7d1"
+                    }, 
+                    {
+                        "id": 28, 
+                        "name": "space", 
+                        "slug": "space", 
+                        "uuid": "62ff175d-4f60-49d8-9aac-48ceb902f252"
+                    }, 
+                    {
+                        "id": 29, 
+                        "name": "tech", 
+                        "slug": "tech", 
+                        "uuid": "4af141cf-0c6c-42ea-a896-ef0aedc2775b"
+                    }, 
+                    {
+                        "id": 30, 
+                        "name": "coding", 
+                        "slug": "coding", 
+                        "uuid": "634bbc0f-7904-4cbb-af63-995bacc83cd2"
+                    }, 
+                    {
+                        "id": 31, 
+                        "name": "extensions", 
+                        "slug": "extensions", 
+                        "uuid": "2f961314-daac-49e1-b378-f16de869e101"
+                    }, 
+                    {
+                        "id": 32, 
+                        "name": "codenav", 
+                        "slug": "codenav", 
+                        "uuid": "faa6cf05-c804-469e-95d2-b06c848848eb"
+                    }, 
+                    {
+                        "id": 33, 
+                        "name": "ad-detector", 
+                        "slug": "ad-detector", 
+                        "uuid": "6243a86e-95e1-42cc-84ba-c6b370da3e9a"
+                    }, 
+                    {
+                        "id": 34, 
+                        "name": "history", 
+                        "slug": "history", 
+                        "uuid": "7e02d9d6-dfcf-4320-8627-3ae9cfdfceff"
+                    }, 
+                    {
+                        "id": 35, 
+                        "name": "geography", 
+                        "slug": "geography", 
+                        "uuid": "9f88a789-7291-4820-9776-d06c168281e7"
+                    }, 
+                    {
+                        "id": 36, 
+                        "name": "hackathons", 
+                        "slug": "hackathons", 
+                        "uuid": "838020c8-165b-432e-8e5b-b718068d41c4"
+                    }, 
+                    {
+                        "id": 37, 
+                        "name": "postmortems", 
+                        "slug": "postmortems", 
+                        "uuid": "26f93967-4952-400f-a149-8770c419e4c1"
+                    }, 
+                    {
+                        "id": 38, 
+                        "name": "interview-club", 
+                        "slug": "interview-club", 
+                        "uuid": "b61c2adb-8bd9-4638-82bb-b0e99882796b"
+                    }, 
+                    {
+                        "id": 39, 
+                        "name": "projects", 
+                        "slug": "projects", 
+                        "uuid": "dde76b50-bfbd-4dc6-94bd-ec847bb2a6c7"
+                    }, 
+                    {
+                        "id": 40, 
+                        "name": "verifiedfacts", 
+                        "slug": "verifiedfacts", 
+                        "uuid": "67f2ffa6-9f72-4802-89a1-1b141bc5e66f"
+                    }
+                ], 
+                "users": [
+                    {
+                        "accessibility": null, 
+                        "bio": null, 
+                        "cover": null, 
+                        "created_at": 1435777687127, 
+                        "created_by": 1, 
+                        "email": "ianw_blog@ianww.com", 
+                        "id": 1, 
+                        "image": null, 
+                        "language": "en_US", 
+                        "last_login": 1435777886683, 
+                        "location": null, 
+                        "meta_description": null, 
+                        "meta_title": null, 
+                        "name": "Ian Webster", 
+                        "password": "$2a$10$Fp.0POFHDtFk.dB8JLWKWu8/.6uvTTpjzkQDG756MlrSceh.FJpxu", 
+                        "slug": "ian", 
+                        "status": "active", 
+                        "updated_at": 1435777886684, 
+                        "updated_by": 1, 
+                        "uuid": "2aeb5128-7029-4141-bd9f-d722f43d5822", 
+                        "website": null
+                    }
+                ]
+            }, 
+            "meta": {
+                "exported_on": 1435777925410, 
+                "version": "003"
+            }
+        }
+    ]
+}
