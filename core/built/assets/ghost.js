@@ -23447,7 +23447,7 @@ define('ghost/validators/setting', ['exports', 'ember'], function (exports, Embe
                 validationErrors.push({ message: "Title is too long" });
             }
 
-            if (!validator.isLength(description, 0, 600)) {
+            if (!validator.isLength(description, 0, 900)) {
                 validationErrors.push({ message: "Description is too long" });
             }
 
