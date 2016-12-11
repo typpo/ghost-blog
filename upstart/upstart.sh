@@ -2,12 +2,12 @@
 
 pushd `dirname $0`
 cd "$(git rev-parse --show-toplevel)"
-mkdir -p /var/log/myblog
+mkdir -p /var/log/my_blog
 
 echo "starting @ `date`"
 
 NODE_ENV=production
-bash prodstart.sh 2>> /var/log/myblog/node.err.log 1>> /var/log/myblog/node.out.log &
+bash startprod.sh 2>> /var/log/my_blog/node.err.log 1>> /var/log/my_blog/node.out.log &
 
 for job in `jobs -p`
 do
