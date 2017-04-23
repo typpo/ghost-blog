@@ -58,7 +58,7 @@ GhostServer.prototype.logStartMessages = function () {
             chalk.green('\nPlease go to http://nodejs.org to get a supported version')
         );
 
-        process.exit(0);
+        //process.exit(0);
     }
 
     // Startup & Shutdown messages

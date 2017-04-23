@@ -1,4 +1,4 @@
 #!/bin/bash
 
-NODE_ENV=production nohup supervisor ghost.js &
+NODE_ENV=production GHOST_NODE_VERSION_CHECK=false nohup supervisor ghost.js &
 
