@@ -6,15 +6,17 @@ var _            = require('lodash'),
     config       = require('../config'),
     canThis      = require('../permissions').canThis,
     errors       = require('../errors'),
+    events       = require('../events'),
     utils        = require('./utils'),
+    i18n         = require('../i18n'),
+    filterPackages = require('../utils/packages').filterPackages,
 
     docName      = 'settings',
     settings,
 
-    updateConfigTheme,
+    updateConfigCache,
     updateSettingsCache,
     settingsFilter,
-    filterPaths,
     readSettingsResult,
     settingsResult,
     canEditAllSettings,
@@ -29,20 +31,48 @@ var _            = require('lodash'),
      */
     settingsCache = {};
 
+// @TODO figure out a better way to do this in the alpha
+events.on('server:start', function () {
+    config.loadExtras().then(function () {
+        updateSettingsCache();
+    });
+});
+
 /**
 * ### Updates Config Theme Settings
 * Maintains the cache of theme specific variables that are reliant on settings.
 * @private
 */
-updateConfigTheme = function () {
+updateConfigCache = function () {
+    var errorMessages = [
+        i18n.t('errors.api.settings.invalidJsonInLabs'),
+        i18n.t('errors.api.settings.labsColumnCouldNotBeParsed'),
+        i18n.t('errors.api.settings.tryUpdatingLabs')
+    ], labsValue = {};
+
+    if (settingsCache.labs && settingsCache.labs.value) {
+        try {
+            labsValue = JSON.parse(settingsCache.labs.value);
+        } catch (e) {
+            errors.logError.apply(this, errorMessages);
+        }
+    }
+
     config.set({
         theme: {
             title: (settingsCache.title && settingsCache.title.value) || '',
             description: (settingsCache.description && settingsCache.description.value) || '',
             logo: (settingsCache.logo && settingsCache.logo.value) || '',
             cover: (settingsCache.cover && settingsCache.cover.value) || '',
-            navigation: (settingsCache.navigation && JSON.parse(settingsCache.navigation.value)) || []
-        }
+            navigation: (settingsCache.navigation && JSON.parse(settingsCache.navigation.value)) || [],
+            postsPerPage: (settingsCache.postsPerPage && settingsCache.postsPerPage.value) || 5,
+            permalinks: (settingsCache.permalinks && settingsCache.permalinks.value) || '/:slug/',
+            twitter: (settingsCache.twitter && settingsCache.twitter.value) || '',
+            facebook: (settingsCache.facebook && settingsCache.facebook.value) || '',
+            timezone: (settingsCache.activeTimezone && settingsCache.activeTimezone.value) || config.theme.timezone,
+            amp: (settingsCache.amp && settingsCache.amp.value === 'true')
+        },
+        labs: labsValue
     });
 };
 
@@ -53,7 +83,8 @@ updateConfigTheme = function () {
  * @param {Object} settings
  * @returns {Settings}
  */
-updateSettingsCache = function (settings) {
+updateSettingsCache = function (settings, options) {
+    options = options || {};
     settings = settings || {};
 
     if (!_.isEmpty(settings)) {
@@ -61,16 +92,16 @@ updateSettingsCache = function (settings) {
             settingsCache[key] = setting;
         });
 
-        updateConfigTheme();
+        updateConfigCache();
 
         return Promise.resolve(settingsCache);
     }
 
-    return dataProvider.Settings.findAll()
+    return dataProvider.Settings.findAll(options)
         .then(function (result) {
             settingsCache = readSettingsResult(result.models);
 
-            updateConfigTheme();
+            updateConfigCache();
 
             return settingsCache;
         });
@@ -87,7 +118,7 @@ updateSettingsCache = function (settings) {
  * @returns {*}
  */
 settingsFilter = function (settings, filter) {
-    return _.object(_.filter(_.pairs(settings), function (setting) {
+    return _.fromPairs(_.filter(_.toPairs(settings), function (setting) {
         if (filter) {
             return _.some(filter.split(','), function (f) {
                 return setting[1].type === f;
@@ -95,50 +126,6 @@ settingsFilter = function (settings, filter) {
         }
         return true;
     }));
-};
-
-/**
- * ### Filter Paths
- * Normalizes paths read by require-tree so that the apps and themes modules can use them. Creates an empty
- * array (res), and populates it with useful info about the read packages like name, whether they're active
- * (comparison with the second argument), and if they have a package.json, that, otherwise false
- * @private
- * @param   {object}            paths       as returned by require-tree()
- * @param   {array/string}      active      as read from the settings object
- * @returns {Array}                         of objects with useful info about apps / themes
- */
-filterPaths = function (paths, active) {
-    var pathKeys = Object.keys(paths),
-        res = [],
-        item;
-
-    // turn active into an array (so themes and apps can be checked the same)
-    if (!Array.isArray(active)) {
-        active = [active];
-    }
-
-    _.each(pathKeys, function (key) {
-        // do not include hidden files or _messages
-        if (key.indexOf('.') !== 0 &&
-                key !== '_messages' &&
-                key !== 'README.md'
-                ) {
-            item = {
-                name: key
-            };
-            if (paths[key].hasOwnProperty('package.json')) {
-                item.package = paths[key]['package.json'];
-            } else {
-                item.package = false;
-            }
-
-            if (_.indexOf(active, key) !== -1) {
-                item.active = true;
-            }
-            res.push(item);
-        }
-    });
-    return res;
 };
 
 /**
@@ -156,26 +143,15 @@ readSettingsResult = function (settingsModels) {
             return memo;
         }, {}),
         themes = config.paths.availableThemes,
-        apps = config.paths.availableApps,
         res;
 
-    if (settings.activeTheme && themes) {
-        res = filterPaths(themes, settings.activeTheme.value);
+    if (settings.activeTheme && !_.isEmpty(themes)) {
+        res = filterPackages(themes, settings.activeTheme.value);
 
         settings.availableThemes = {
             key: 'availableThemes',
             value: res,
             type: 'theme'
-        };
-    }
-
-    if (settings.activeApps && apps) {
-        res = filterPaths(apps, JSON.parse(settings.activeApps.value));
-
-        settings.availableApps = {
-            key: 'availableApps',
-            value: res,
-            type: 'app'
         };
     }
 
@@ -228,7 +204,7 @@ populateDefaultSetting = function (key) {
         }
 
         // TODO: Different kind of error?
-        return Promise.reject(new errors.NotFoundError('Problem finding setting: ' + key));
+        return Promise.reject(new errors.NotFoundError(i18n.t('errors.api.settings.problemFindingSetting', {key: key})));
     });
 };
 
@@ -243,12 +219,12 @@ canEditAllSettings = function (settingsInfo, options) {
     var checkSettingPermissions = function (setting) {
             if (setting.type === 'core' && !(options.context && options.context.internal)) {
                 return Promise.reject(
-                    new errors.NoPermissionError('Attempted to access core setting from external request')
+                    new errors.NoPermissionError(i18n.t('errors.api.settings.accessCoreSettingFromExtReq'))
                 );
             }
 
             return canThis(options.context).edit.setting(setting.key).catch(function () {
-                return Promise.reject(new errors.NoPermissionError('You do not have permission to edit settings.'));
+                return Promise.reject(new errors.NoPermissionError(i18n.t('errors.api.settings.noPermissionToEditSettings')));
             });
         },
         checks = _.map(settingsInfo, function (settingInfo) {
@@ -327,7 +303,7 @@ settings = {
 
                 if (setting.type === 'core' && !(options.context && options.context.internal)) {
                     return Promise.reject(
-                        new errors.NoPermissionError('Attempted to access core setting from external request')
+                        new errors.NoPermissionError(i18n.t('errors.api.settings.accessCoreSettingFromExtReq'))
                     );
                 }
 
@@ -338,7 +314,7 @@ settings = {
                 return canThis(options.context).read.setting(options.key).then(function () {
                     return settingsResult(result);
                 }, function () {
-                    return Promise.reject(new errors.NoPermissionError('You do not have permission to read settings.'));
+                    return Promise.reject(new errors.NoPermissionError(i18n.t('errors.api.settings.noPermissionToReadSettings')));
                 });
             };
 
@@ -357,7 +333,7 @@ settings = {
 
     /**
      * ### Edit
-     * Update properties of a post
+     * Update properties of a setting
      * @param {{settings: }} object Setting or a single string name
      * @param {{id (required), include,...}} options (optional) or a single string value
      * @return {Promise(Setting)} Edited Setting
@@ -385,7 +361,7 @@ settings = {
         }
 
         object.settings = _.reject(object.settings, function (setting) {
-            return setting.key === 'type' || setting.key === 'availableThemes' || setting.key === 'availableApps';
+            return setting.key === 'type' || setting.key === 'availableThemes';
         });
 
         return canEditAllSettings(object.settings, options).then(function () {
